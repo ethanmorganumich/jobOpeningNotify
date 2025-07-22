@@ -1,0 +1,807 @@
+[
+  {
+    "title": "Analytics Data Engineer, Applied Engineering",
+    "link": "https://openai.com/careers/analytics-data-engineer-applied-engineering/",
+    "team": null
+  },
+  {
+    "title": "Analytics Engineer, Executive Reporting",
+    "link": "https://openai.com/careers/analytics-engineer-executive-reporting/",
+    "team": null
+  },
+  {
+    "title": "Analytics Engineer, Finance",
+    "link": "https://openai.com/careers/analytics-engineer-finance/",
+    "team": null
+  },
+  {
+    "title": "Android Client Infrastructure Engineer",
+    "link": "https://openai.com/careers/android-client-infrastructure-engineer/",
+    "team": null
+  },
+  {
+    "title": "Android Engineer, ChatGPT",
+    "link": "https://openai.com/careers/android-engineer-chatgpt/",
+    "team": null
+  },
+  {
+    "title": "Backend Software Engineer, Leverage Engineering",
+    "link": "https://openai.com/careers/backend-software-engineer-leverage-engineering/",
+    "team": null
+  },
+  {
+    "title": "Civil, Structural & Architectural Engineer - Stargate",
+    "link": "https://openai.com/careers/civil-structural-and-architectural-engineer-stargate/",
+    "team": null
+  },
+  {
+    "title": "Computational Sensing & Simulation Engineer",
+    "link": "https://openai.com/careers/computational-sensing-and-simulation-engineer/",
+    "team": null
+  },
+  {
+    "title": "DAQ Software Engineer, Robotics",
+    "link": "https://openai.com/careers/daq-software-engineer-robotics/",
+    "team": null
+  },
+  {
+    "title": "Data Center Research & Development Engineer - Stargate",
+    "link": "https://openai.com/careers/data-center-research-and-development-engineer-stargate/",
+    "team": null
+  },
+  {
+    "title": "Data Engineer, Financial Engineering",
+    "link": "https://openai.com/careers/data-engineer-financial-engineering/",
+    "team": null
+  },
+  {
+    "title": "Data Engineer Lead, Business",
+    "link": "https://openai.com/careers/data-engineer-lead-business/",
+    "team": null
+  },
+  {
+    "title": "Data Infrastructure Engineer",
+    "link": "https://openai.com/careers/data-infrastructure-engineer/",
+    "team": null
+  },
+  {
+    "title": "Data Platform Engineer, Privacy Engineering",
+    "link": "https://openai.com/careers/data-platform-engineer-privacy-engineering/",
+    "team": null
+  },
+  {
+    "title": "Developer Experience Engineer",
+    "link": "https://openai.com/careers/developer-experience-engineer/",
+    "team": null
+  },
+  {
+    "title": "Distributed Training Engineer, Sora",
+    "link": "https://openai.com/careers/distributed-training-engineer-sora/",
+    "team": null
+  },
+  {
+    "title": "Embedded Software Engineer",
+    "link": "https://openai.com/careers/embedded-software-engineer/",
+    "team": null
+  },
+  {
+    "title": "Engineering Communications",
+    "link": "https://openai.com/careers/engineering-communications/",
+    "team": null
+  },
+  {
+    "title": "Engineering Manager, ChatGPT Growth",
+    "link": "https://openai.com/careers/engineering-manager-chatgpt-growth/",
+    "team": null
+  },
+  {
+    "title": "Engineering Manager, Evals (API)",
+    "link": "https://openai.com/careers/engineering-manager-evals-(api)/",
+    "team": null
+  },
+  {
+    "title": "Engineering Manager, Fleet Clusters",
+    "link": "https://openai.com/careers/engineering-manager-fleet-clusters/",
+    "team": null
+  },
+  {
+    "title": "Engineering Manager, Infrastructure",
+    "link": "https://openai.com/careers/engineering-manager-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Engineering Manager, Knowledge Products",
+    "link": "https://openai.com/careers/engineering-manager-knowledge-products/",
+    "team": null
+  },
+  {
+    "title": "Engineering Manager, Mulitimodal (API)",
+    "link": "https://openai.com/careers/engineering-manager-mulitimodal-(api)/",
+    "team": null
+  },
+  {
+    "title": "Enterprise Security Engineer",
+    "link": "https://openai.com/careers/enterprise-security-engineer-2/",
+    "team": null
+  },
+  {
+    "title": "Firmware Engineer, Robotics",
+    "link": "https://openai.com/careers/firmware-engineer-robotics/",
+    "team": null
+  },
+  {
+    "title": "Forward Deployed Engineer - SF",
+    "link": "https://openai.com/careers/forward-deployed-engineer-sf/",
+    "team": null
+  },
+  {
+    "title": "Forward Deployed Security Engineer, Public Sector",
+    "link": "https://openai.com/careers/forward-deployed-security-engineer-public-sector/",
+    "team": null
+  },
+  {
+    "title": "Forward Deployed Software Engineer, Public Sector",
+    "link": "https://openai.com/careers/forward-deployed-software-engineer-public-sector/",
+    "team": null
+  },
+  {
+    "title": "Front End Software Engineer, Leverage Engineering",
+    "link": "https://openai.com/careers/front-end-software-engineer-leverage-engineering/",
+    "team": null
+  },
+  {
+    "title": "Front End Software Engineer, Marketing",
+    "link": "https://openai.com/careers/front-end-software-engineer-marketing/",
+    "team": null
+  },
+  {
+    "title": "Full Stack Engineer, Fleet Scheduling",
+    "link": "https://openai.com/careers/full-stack-engineer-fleet-scheduling/",
+    "team": null
+  },
+  {
+    "title": "Full Stack Engineer, Frontier Clusters",
+    "link": "https://openai.com/careers/full-stack-engineer-frontier-clusters/",
+    "team": null
+  },
+  {
+    "title": "Fullstack Engineer, Intelligence Systems",
+    "link": "https://openai.com/careers/fullstack-engineer-intelligence-systems/",
+    "team": null
+  },
+  {
+    "title": "Full Stack Engineer, Post Training",
+    "link": "https://openai.com/careers/full-stack-engineer-post-training/",
+    "team": null
+  },
+  {
+    "title": "Full-Stack Engineer, Public Sector",
+    "link": "https://openai.com/careers/full-stack-engineer-public-sector/",
+    "team": null
+  },
+  {
+    "title": "Full Stack Engineer, Sora",
+    "link": "https://openai.com/careers/full-stack-engineer-sora/",
+    "team": null
+  },
+  {
+    "title": "Full Stack Software Engineer, Leverage Engineering",
+    "link": "https://openai.com/careers/full-stack-software-engineer-leverage-engineering/",
+    "team": null
+  },
+  {
+    "title": "Full Stack Software Engineer, Research Team",
+    "link": "https://openai.com/careers/full-stack-software-engineer-research-team/",
+    "team": null
+  },
+  {
+    "title": "GPU Kernels Engineer",
+    "link": "https://openai.com/careers/gpu-kernels-engineer/",
+    "team": null
+  },
+  {
+    "title": "Hardware System Design Electrical Engineer",
+    "link": "https://openai.com/careers/hardware-system-design-electrical-engineer/",
+    "team": null
+  },
+  {
+    "title": "HW/SW Co-Design Engineer",
+    "link": "https://openai.com/careers/hwsw-co-design-engineer/",
+    "team": null
+  },
+  {
+    "title": "Infrastructure Software Engineer, Leverage Engineering",
+    "link": "https://openai.com/careers/infrastructure-software-engineer-leverage-engineering/",
+    "team": null
+  },
+  {
+    "title": "iOS Engineer, ChatGPT",
+    "link": "https://openai.com/careers/ios-engineer-chatgpt/",
+    "team": null
+  },
+  {
+    "title": "Machine Learning Engineer, Integrity",
+    "link": "https://openai.com/careers/machine-learning-engineer-integrity/",
+    "team": null
+  },
+  {
+    "title": "Machine Learning Engineer \u2013 Real-Time Multimodal Perception",
+    "link": "https://openai.com/careers/machine-learning-engineer-real-time-multimodal-perception/",
+    "team": null
+  },
+  {
+    "title": "Mechanical Product Engineer, Robotics",
+    "link": "https://openai.com/careers/mechanical-product-engineer-robotics/",
+    "team": null
+  },
+  {
+    "title": "ML Infrastructure Engineer",
+    "link": "https://openai.com/careers/ml-infrastructure-engineer/",
+    "team": null
+  },
+  {
+    "title": "Network Security Engineer",
+    "link": "https://openai.com/careers/network-security-engineer/",
+    "team": null
+  },
+  {
+    "title": "Performance Engineer",
+    "link": "https://openai.com/careers/performance-engineer/",
+    "team": null
+  },
+  {
+    "title": "Performance & Systems Engineer, Codex",
+    "link": "https://openai.com/careers/performance-and-systems-engineer-codex/",
+    "team": null
+  },
+  {
+    "title": "Principal Engineer, GPU Platform",
+    "link": "https://openai.com/careers/principal-engineer-gpu-platform/",
+    "team": null
+  },
+  {
+    "title": "Principal Software Engineer, ChatGPT for Work",
+    "link": "https://openai.com/careers/principal-software-engineer-chatgpt-for-work/",
+    "team": null
+  },
+  {
+    "title": "Product Manager, Financial Engineering",
+    "link": "https://openai.com/careers/product-manager-financial-engineering/",
+    "team": null
+  },
+  {
+    "title": "Product Manufacturing Engineer",
+    "link": "https://openai.com/careers/product-manufacturing-engineer/",
+    "team": null
+  },
+  {
+    "title": "Research Empowerment Infrastructure Engineer",
+    "link": "https://openai.com/careers/research-empowerment-infrastructure-engineer/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer",
+    "link": "https://openai.com/careers/research-engineer/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Applied AI Engineering",
+    "link": "https://openai.com/careers/research-engineer-applied-ai-engineering/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer,  Data Processing (Foundations)",
+    "link": "https://openai.com/careers/research-engineer-data-processing-(foundations)/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Focused Bets",
+    "link": "https://openai.com/careers/research-engineer-focused-bets/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Frontier Evals",
+    "link": "https://openai.com/careers/research-engineer-frontier-evals/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Human-Centered AI",
+    "link": "https://openai.com/careers/research-engineer-human-centered-ai/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Post-Training Evals",
+    "link": "https://openai.com/careers/research-engineer-post-training-evals/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Preparedness (Biology/CBRN)",
+    "link": "https://openai.com/careers/research-engineer-preparedness-(biologycbrn)/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Research Scientist - Agent Robustness and Control",
+    "link": "https://openai.com/careers/research-engineer-research-scientist-agent-robustness-and-control/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Research Scientist - Agents",
+    "link": "https://openai.com/careers/research-engineer-research-scientist-agents/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Research Scientist, Alignment",
+    "link": "https://openai.com/careers/research-engineer-research-scientist-alignment/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Research Scientist, Codex",
+    "link": "https://openai.com/careers/research-engineer-research-scientist-codex/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Research Scientist - Deep Research",
+    "link": "https://openai.com/careers/research-engineer-research-scientist-deep-research/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Research Scientist - Model Behavior",
+    "link": "https://openai.com/careers/research-engineer-research-scientist-model-behavior/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Research Scientist, Post-Training",
+    "link": "https://openai.com/careers/research-engineer-research-scientist-post-training/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer/Research Scientist, RL/Reasoning",
+    "link": "https://openai.com/careers/research-engineerresearch-scientist-rlreasoning/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Retrieval & Search, Applied Engineering",
+    "link": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Robotics",
+    "link": "https://openai.com/careers/research-engineer-robotics/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Safety Engineering",
+    "link": "https://openai.com/careers/research-engineer-safety-engineering/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Scientist, Health AI",
+    "link": "https://openai.com/careers/research-engineer-scientist-health-ai/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Scientist, Interpretability",
+    "link": "https://openai.com/careers/research-engineer-scientist-interpretability/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Scientist, Multimodal",
+    "link": "https://openai.com/careers/research-engineer-scientist-multimodal/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Scientist - Multimodal, Future of Computing",
+    "link": "https://openai.com/careers/research-engineer-scientist-multimodal-future-of-computing/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Scientist, Robustness & Safety Training",
+    "link": "https://openai.com/careers/research-engineer-scientist-robustness-and-safety-training/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer / Scientist, Safety Oversight",
+    "link": "https://openai.com/careers/research-engineer-scientist-safety-oversight/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer/Scientist, Strategic Deployment",
+    "link": "https://openai.com/careers/research-engineerscientist-strategic-deployment/",
+    "team": null
+  },
+  {
+    "title": "Research Engineer, Trustworthy AI",
+    "link": "https://openai.com/careers/research-engineer-trustworthy-ai/",
+    "team": null
+  },
+  {
+    "title": "Researcher (Engineer/Scientist), Training Architecture",
+    "link": "https://openai.com/careers/researcher-(engineerscientist)-training-architecture/",
+    "team": null
+  },
+  {
+    "title": "Security Engineer, Agent Security",
+    "link": "https://openai.com/careers/security-engineer-agent-security/",
+    "team": null
+  },
+  {
+    "title": "Security Engineer, Application Security",
+    "link": "https://openai.com/careers/security-engineer-application-security-2/",
+    "team": null
+  },
+  {
+    "title": "Security Engineer, Cloud Security",
+    "link": "https://openai.com/careers/security-engineer-cloud-security-3/",
+    "team": null
+  },
+  {
+    "title": "Security Engineer, Data Center Security",
+    "link": "https://openai.com/careers/security-engineer-data-center-security-4/",
+    "team": null
+  },
+  {
+    "title": "Security Engineer, Detection and Response",
+    "link": "https://openai.com/careers/security-engineer-detection-and-response/",
+    "team": null
+  },
+  {
+    "title": "Security Engineer, Insider Threat Detection and Response",
+    "link": "https://openai.com/careers/security-engineer-insider-threat-detection-and-response/",
+    "team": null
+  },
+  {
+    "title": "Senior HW Test Engineer",
+    "link": "https://openai.com/careers/senior-hw-test-engineer/",
+    "team": null
+  },
+  {
+    "title": "Senior Manager, Strategic Sourcing (Product & Engineering Technology)",
+    "link": "https://openai.com/careers/senior-manager-strategic-sourcing-(product-and-engineering-technology)/",
+    "team": null
+  },
+  {
+    "title": "Senior Research Engineer - Edge, Future of Computing",
+    "link": "https://openai.com/careers/senior-research-engineer-edge-future-of-computing/",
+    "team": null
+  },
+  {
+    "title": "Senior Research Engineer/Scientist - Sensing, Future of Computing",
+    "link": "https://openai.com/careers/senior-research-engineerscientist-sensing-future-of-computing/",
+    "team": null
+  },
+  {
+    "title": "Senior Software Engineer, Data Acquisition",
+    "link": "https://openai.com/careers/senior-software-engineer-data-acquisition/",
+    "team": null
+  },
+  {
+    "title": "Senior Software Engineer, Identity Platform",
+    "link": "https://openai.com/careers/senior-software-engineer-identity-platform/",
+    "team": null
+  },
+  {
+    "title": "Senior Support Engineer",
+    "link": "https://openai.com/careers/senior-support-engineer/",
+    "team": null
+  },
+  {
+    "title": "Sensors Module / Systems Engineer",
+    "link": "https://openai.com/careers/sensors-module-systems-engineer/",
+    "team": null
+  },
+  {
+    "title": "Signal Integrity Engineer",
+    "link": "https://openai.com/careers/signal-integrity-engineer/",
+    "team": null
+  },
+  {
+    "title": "Site Reliability Engineer, Enterprise IAM",
+    "link": "https://openai.com/careers/site-reliability-engineer-enterprise-iam/",
+    "team": null
+  },
+  {
+    "title": "Site Reliability Engineer, Public Sector",
+    "link": "https://openai.com/careers/site-reliability-engineer-public-sector/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Accelerators",
+    "link": "https://openai.com/careers/software-engineer-accelerators/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Agent Infrastructure",
+    "link": "https://openai.com/careers/software-engineer-agent-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, AI Safety",
+    "link": "https://openai.com/careers/software-engineer-ai-safety/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Backend",
+    "link": "https://openai.com/careers/software-engineer-backend/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Backend - Sora",
+    "link": "https://openai.com/careers/software-engineer-backend-sora/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Caching Infrastructure",
+    "link": "https://openai.com/careers/software-engineer-caching-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Cloud IAM",
+    "link": "https://openai.com/careers/software-engineer-cloud-iam/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Collective Communication",
+    "link": "https://openai.com/careers/software-engineer-collective-communication/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer - Compiler, Kernels, Runtime",
+    "link": "https://openai.com/careers/software-engineer-compiler-kernels-runtime/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Computer-Using Agent",
+    "link": "https://openai.com/careers/software-engineer-computer-using-agent/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Compute - Storage",
+    "link": "https://openai.com/careers/software-engineer-compute-storage/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Core Services",
+    "link": "https://openai.com/careers/software-engineer-core-services/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Data Acquisition",
+    "link": "https://openai.com/careers/software-engineer-data-acquisition/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Database Systems",
+    "link": "https://openai.com/careers/software-engineer-database-systems/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Data Center Simulation",
+    "link": "https://openai.com/careers/software-engineer-data-center-simulation/",
+    "team": null
+  },
+  {
+    "title": "Software  Engineer, Data Visualization",
+    "link": "https://openai.com/careers/software-engineer-data-visualization/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Dev Productivity",
+    "link": "https://openai.com/careers/software-engineer-dev-productivity/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Enterprise Identity",
+    "link": "https://openai.com/careers/software-engineer-enterprise-identity/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Financial Engineering",
+    "link": "https://openai.com/careers/software-engineer-financial-engineering/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Fleet Hardware Health",
+    "link": "https://openai.com/careers/software-engineer-fleet-hardware-health/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Frontend",
+    "link": "https://openai.com/careers/software-engineer-frontend/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Frontier Clusters Infrastructure",
+    "link": "https://openai.com/careers/software-engineer-frontier-clusters-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Frontier Clusters - Power Management",
+    "link": "https://openai.com/careers/software-engineer-frontier-clusters-power-management/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Frontier Systems",
+    "link": "https://openai.com/careers/software-engineer-frontier-systems/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Full Stack",
+    "link": "https://openai.com/careers/software-engineer-full-stack/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Full Stack",
+    "link": "https://openai.com/careers/software-engineer-full-stack-4/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Full Stack (Knowledge Innovation)",
+    "link": "https://openai.com/careers/software-engineer-full-stack-(knowledge-innovation)/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, GPU Inference",
+    "link": "https://openai.com/careers/software-engineer-gpu-inference/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, GPU Infrastructure",
+    "link": "https://openai.com/careers/software-engineer-gpu-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, GPU Infrastructure - HPC",
+    "link": "https://openai.com/careers/software-engineer-gpu-infrastructure-hpc/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, GTM Innovation (Backend)",
+    "link": "https://openai.com/careers/software-engineer-gtm-innovation-(backend)/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, GTM Innovation (Full Stack)",
+    "link": "https://openai.com/careers/software-engineer-gtm-innovation-(full-stack)/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Healthcare",
+    "link": "https://openai.com/careers/software-engineer-healthcare/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Inference - CUDA / Kernels",
+    "link": "https://openai.com/careers/software-engineer-inference-cuda-kernels/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Inference - Multi Modal",
+    "link": "https://openai.com/careers/software-engineer-inference-multi-modal/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Inference - TL",
+    "link": "https://openai.com/careers/software-engineer-inference-tl/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Infrastructure",
+    "link": "https://openai.com/careers/software-engineer-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Infrastructure - Analytics",
+    "link": "https://openai.com/careers/software-engineer-infrastructure-analytics/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Infrastructure Reliability",
+    "link": "https://openai.com/careers/software-engineer-infrastructure-reliability/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Integrity Foundations",
+    "link": "https://openai.com/careers/software-engineer-integrity-foundations/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Model Inference",
+    "link": "https://openai.com/careers/software-engineer-model-inference/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Observability",
+    "link": "https://openai.com/careers/software-engineer-observability/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Online Storage",
+    "link": "https://openai.com/careers/software-engineer-online-storage/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Payments",
+    "link": "https://openai.com/careers/software-engineer-payments/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Post-Training Research",
+    "link": "https://openai.com/careers/software-engineer-post-training-research/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Research - Human Data",
+    "link": "https://openai.com/careers/software-engineer-research-human-data/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Research Infrastructure",
+    "link": "https://openai.com/careers/software-engineer-research-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Safety White Hat",
+    "link": "https://openai.com/careers/software-engineer-safety-white-hat/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Scaled Abuse",
+    "link": "https://openai.com/careers/software-engineer-scaled-abuse/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Search Evaluations",
+    "link": "https://openai.com/careers/software-engineer-search-evaluations/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Search Infrastructure",
+    "link": "https://openai.com/careers/software-engineer-search-infrastructure/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Triton Compiler",
+    "link": "https://openai.com/careers/software-engineer-triton-compiler/",
+    "team": null
+  },
+  {
+    "title": "Software Engineer, Youth Well-Being",
+    "link": "https://openai.com/careers/software-engineer-youth-well-being/",
+    "team": null
+  },
+  {
+    "title": "Solutions Engineer, Large Enterprise",
+    "link": "https://openai.com/careers/solutions-engineer-large-enterprise/",
+    "team": null
+  },
+  {
+    "title": "System Software Engineer, Diagnostics & Test",
+    "link": "https://openai.com/careers/system-software-engineer-diagnostics-and-test/",
+    "team": null
+  },
+  {
+    "title": "System Software Engineer, Manageability Architecture",
+    "link": "https://openai.com/careers/system-software-engineer-manageability-architecture/",
+    "team": null
+  },
+  {
+    "title": "TLM, Machine Learning, Integrity",
+    "link": "https://openai.com/careers/tlm-machine-learning-integrity/",
+    "team": null
+  },
+  {
+    "title": "TLM - People Innovations",
+    "link": "https://openai.com/careers/tlm-people-innovations/",
+    "team": null
+  },
+  {
+    "title": "Wireless/Inductive Charging Electrical Engineer",
+    "link": "https://openai.com/careers/wirelessinductive-charging-electrical-engineer/",
+    "team": null
+  },
+  {
+    "title": "Workday Integrations Engineer",
+    "link": "https://openai.com/careers/workday-integrations-engineer/",
+    "team": null
+  }
+]
