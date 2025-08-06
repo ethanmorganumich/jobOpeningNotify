@@ -171,7 +171,13 @@ def main():
             print(f" + {item.title} ({item.link})")
 
     # Save updated cache
-    scraped_list.save(CACHE_FILE)
+    # scraped_list.save_s3(CACHE_FILE)
+    return new_items
 
-if __name__ == '__main__':
-    main()
+def lambda_handler(event, context):
+    # TODO implement
+    items = main()
+    return {
+        'statusCode': 200,
+        'body': json.dumps(items)
+    }
