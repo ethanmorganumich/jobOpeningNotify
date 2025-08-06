@@ -181,3 +181,6 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps(items)
     }
+
+if __name__ == "__main__":
+    main()
