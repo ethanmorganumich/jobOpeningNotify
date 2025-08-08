@@ -53,7 +53,7 @@ Description: {(job.description or '')[:1500]}{'...' if len(job.description or ''
 """
         
         prompt = f"""
-You are a career advisor analyzing job fit. Evaluate these {len(jobs_batch)} job postings against the candidate's resume.
+You are a strict technical recruiter analyzing job fit. Be CRITICAL and use the FULL scoring range 0-100.
 
 CANDIDATE RESUME:
 {resume}
@@ -61,32 +61,54 @@ CANDIDATE RESUME:
 JOBS TO ANALYZE:
 {jobs_text}
 
-For EACH job, analyze and score (0-100) on these dimensions:
+CRITICAL EVALUATION CRITERIA:
 
-1. SKILLS MATCH: How well do the candidate's technical skills and experience align with job requirements?
-   Consider: programming languages, systems experience, scale of previous work, technical depth
+1. EXPERIENCE LEVEL MATCH (0-100):
+   - Look for EXPLICIT years of experience required (e.g., "5+ years", "senior", "staff")
+   - If job requires significantly more experience than candidate has, score LOW (0-30)
+   - If job is entry/junior level and candidate is overqualified, score MEDIUM (40-70)
+   - Perfect experience match gets HIGH scores (80-100)
 
-2. EXPERIENCE MATCH: How well does their background prepare them for this role?  
-   Consider: AWS experience, distributed systems, AI/ML work, leadership, similar domains
+2. ROLE TYPE COMPATIBILITY (0-100):
+   - If job is MANAGEMENT role but candidate is INDIVIDUAL CONTRIBUTOR: score 0-20
+   - If job requires skills candidate completely lacks: score 0-40
+   - If job is completely different field (e.g., sales, marketing): score 0-30
+   - Well-aligned IC roles: 60-100 based on other factors
 
-3. INTEREST ALIGNMENT: Based on stated interests (ML, distributed systems, product), how excited would they be?
-   Consider: role focus areas, growth opportunities, alignment with stated interests
+3. TECHNICAL SKILLS MATCH (0-100):
+   - Count specific technical skills mentioned in job that candidate possesses
+   - Consider depth of experience in those technologies
+   - Missing core required skills should significantly lower score (20-50 points)
+   - Having all required skills + more gives 80-100
 
-4. OVERALL FIT: Considering all factors, how good a match is this?
+4. INTEREST ALIGNMENT (0-100):
+   - How well does this role match stated career interests and trajectory?
+   - Consider growth opportunities and learning potential
 
-Respond with a JSON array containing one object per job in the EXACT same order:
+SCORING REQUIREMENTS:
+- Use FULL range: Many jobs should score 20-60, only exceptional matches get 80+
+- Be especially strict on experience requirements and role type
+- Overall fit should reflect REALISTIC hiring probability
+- A 90+ score means "perfect match, would definitely get interview"
+- A 50 score means "possible fit with some gaps"
+- A 20 score means "significant mismatch"
+
+Respond with JSON array in EXACT order:
 
 [
   {{
     "job_number": 1,
-    "skills_match": <score 0-100>,
-    "experience_match": <score 0-100>,
-    "interest_alignment": <score 0-100>,
-    "overall_fit": <score 0-100>,
+    "experience_level_match": <0-100>,
+    "role_compatibility": <0-100>, 
+    "skills_match": <0-100>,
+    "interest_alignment": <0-100>,
+    "overall_fit": <0-100>,
+    "experience_gap": "specific experience gap if any",
     "key_strengths": ["strength1", "strength2"],
-    "potential_gaps": ["gap1", "gap2"],
-    "excitement_factor": "brief reason why exciting",
-    "one_line_summary": "one sentence summary of fit",
+    "major_concerns": ["concern1", "concern2"],
+    "excitement_factor": "brief reason why exciting or concerning",
+    "one_line_summary": "honest assessment of realistic fit",
+    "would_interview": true/false,
     "analysis_date": "{time.strftime('%Y-%m-%d')}"
   }},
   ... (continue for all {len(jobs_batch)} jobs)
@@ -132,14 +154,17 @@ Respond with a JSON array containing one object per job in the EXACT same order:
     def _get_fallback_analysis(self) -> Dict:
         """Return fallback analysis when API call fails"""
         return {
+            "experience_level_match": 0,
+            "role_compatibility": 0,
             "skills_match": 0,
-            "experience_match": 0,
             "interest_alignment": 0,
             "overall_fit": 0,
+            "experience_gap": "Analysis failed",
             "key_strengths": [],
-            "potential_gaps": ["Analysis failed"],
+            "major_concerns": ["Analysis failed"],
             "excitement_factor": "Could not analyze",
             "one_line_summary": "Analysis failed - API error",
+            "would_interview": False,
             "analysis_date": time.strftime('%Y-%m-%d')
         }
     
@@ -205,8 +230,33 @@ Respond with a JSON array containing one object per job in the EXACT same order:
         print(f"\n🎉 Analysis complete! Analyzed {jobs_analyzed} jobs.")
         return jobs_analyzed
     
+    def _filter_realistic_jobs(self, jobs: List[JobItem], min_overall_fit: int = 30, 
+                              min_role_compatibility: int = 40) -> List[JobItem]:
+        """Filter out jobs with very low compatibility scores"""
+        filtered = []
+        for job in jobs:
+            analysis = job.match_analysis
+            
+            # Check overall fit
+            if analysis['overall_fit'] < min_overall_fit:
+                continue
+                
+            # Check role compatibility if available (new format)
+            if 'role_compatibility' in analysis and analysis['role_compatibility'] < min_role_compatibility:
+                continue
+                
+            # Filter out obvious manager roles for IC candidates
+            title_lower = job.title.lower()
+            if any(word in title_lower for word in ['manager', 'director', 'vp', 'head of', 'chief']):
+                if 'role_compatibility' in analysis and analysis['role_compatibility'] < 60:
+                    continue
+            
+            filtered.append(job)
+            
+        return filtered
+
     def generate_recommendations(self, job_list: JobList, top_n: int = 15) -> Dict[str, List[JobItem]]:
-        """Generate ranked recommendations from analyzed jobs"""
+        """Generate ranked recommendations from analyzed jobs with filtering"""
         
         analyzed_jobs = job_list.get_analyzed_jobs()
         
@@ -214,19 +264,35 @@ Respond with a JSON array containing one object per job in the EXACT same order:
             print("❌ No jobs have been analyzed yet!")
             return {}
         
-        print(f"📊 Generating recommendations from {len(analyzed_jobs)} analyzed jobs...")
+        # Filter out obviously unsuitable jobs
+        filtered_jobs = self._filter_realistic_jobs(analyzed_jobs)
+        
+        print(f"📊 Generating recommendations from {len(analyzed_jobs)} analyzed jobs ({len(filtered_jobs)} after filtering)...")
+        
+        if not filtered_jobs:
+            print("❌ No suitable jobs found after filtering! All jobs had very low compatibility scores.")
+            return {}
         
         # Sort jobs by different criteria
-        by_overall = sorted(analyzed_jobs, key=lambda x: x.match_analysis['overall_fit'], reverse=True)
-        by_skills = sorted(analyzed_jobs, key=lambda x: x.match_analysis['skills_match'], reverse=True)
-        by_interest = sorted(analyzed_jobs, key=lambda x: x.match_analysis['interest_alignment'], reverse=True)
+        by_overall = sorted(filtered_jobs, key=lambda x: x.match_analysis['overall_fit'], reverse=True)
+        by_skills = sorted(filtered_jobs, key=lambda x: x.match_analysis['skills_match'], reverse=True)
+        by_interest = sorted(filtered_jobs, key=lambda x: x.match_analysis['interest_alignment'], reverse=True)
         
-        # Create balanced score (skills + interest)
-        for job in analyzed_jobs:
+        # Create balanced score - use new fields if available, fallback to old
+        for job in filtered_jobs:
             analysis = job.match_analysis
-            analysis['balanced_score'] = (analysis['skills_match'] + analysis['interest_alignment']) / 2
+            if 'role_compatibility' in analysis:
+                # New format: weight role compatibility heavily
+                analysis['balanced_score'] = (
+                    analysis['skills_match'] * 0.3 + 
+                    analysis['experience_level_match'] * 0.3 +
+                    analysis['role_compatibility'] * 0.4
+                )
+            else:
+                # Old format: fallback
+                analysis['balanced_score'] = (analysis['skills_match'] + analysis['interest_alignment']) / 2
         
-        by_balanced = sorted(analyzed_jobs, key=lambda x: x.match_analysis['balanced_score'], reverse=True)
+        by_balanced = sorted(filtered_jobs, key=lambda x: x.match_analysis['balanced_score'], reverse=True)
         
         return {
             'best_overall_fit': by_overall[:top_n],
@@ -267,7 +333,15 @@ Respond with a JSON array containing one object per job in the EXACT same order:
                 print(f"\n{i}. {job.title} [{company_display}]")
                 print(f"   Location: {job.location or 'Not specified'}")
                 print(f"   Team: {job.team or 'Not specified'}")
-                print(f"   Scores: Overall {analysis['overall_fit']}, Skills {analysis['skills_match']}, Interest {analysis['interest_alignment']}")
+                # Handle both old and new analysis formats
+                if 'experience_level_match' in analysis:
+                    print(f"   Scores: Overall {analysis['overall_fit']}, Experience {analysis['experience_level_match']}, Role Fit {analysis['role_compatibility']}, Skills {analysis['skills_match']}")
+                    print(f"   Would Interview: {'✅' if analysis.get('would_interview', False) else '❌'}")
+                    if analysis.get('experience_gap'):
+                        print(f"   Experience Gap: {analysis['experience_gap']}")
+                else:
+                    # Backwards compatibility with old format
+                    print(f"   Scores: Overall {analysis['overall_fit']}, Skills {analysis['skills_match']}, Interest {analysis['interest_alignment']}")
                 if category == 'best_balanced_match':
                     print(f"   Balanced Score: {analysis.get('balanced_score', 0):.1f}")
                 print(f"   Summary: {analysis['one_line_summary']}")

@@ -117,7 +117,15 @@ def main():
                         print(f"   Location: {job.location or 'Not specified'}")
                         if job.team:
                             print(f"   Team: {job.team}")
-                        print(f"   Scores: Overall {analysis['overall_fit']}, Skills {analysis['skills_match']}, Interest {analysis['interest_alignment']}")
+                        # Handle both old and new analysis formats
+                        if 'experience_level_match' in analysis:
+                            print(f"   Scores: Overall {analysis['overall_fit']}, Experience {analysis['experience_level_match']}, Role Fit {analysis['role_compatibility']}, Skills {analysis['skills_match']}")
+                            print(f"   Would Interview: {'✅' if analysis.get('would_interview', False) else '❌'}")
+                            if analysis.get('experience_gap'):
+                                print(f"   Experience Gap: {analysis['experience_gap']}")
+                        else:
+                            # Backwards compatibility with old format
+                            print(f"   Scores: Overall {analysis['overall_fit']}, Skills {analysis['skills_match']}, Interest {analysis['interest_alignment']}")
                         if category == 'best_balanced_match':
                             print(f"   Balanced Score: {analysis.get('balanced_score', 0):.1f}")
                         print(f"   Summary: {analysis['one_line_summary']}")
