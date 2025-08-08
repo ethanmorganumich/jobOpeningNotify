@@ -1,0 +1,57 @@
+Ethan C. Morgan
+ethanmorgan.io • e@ethanmorgan.io • linkedin.com/in/EthanMorganUMich
+
+EXPERIENCE                                                            
+
+Amazon AGI Lab, Nova-Act, San Francisco CA
+Software Development Engineer 	II									        Dec. 2024 - Present
+Launched of Amazon Nova Act, a computer use AI agent designed to perform multi-step actions within web browsers
+Productionized Nova-Act inference pipeline for a 76B-parameter model: scaling Sagemaker-backed clusters, automating model releases, and hardening the service for public launch.
+Reduced end-to-end latency by 1.25 seconds (30%): through profiling and optimizing caches and network traffic
+Built observer-model monitoring infrastructure: integrated a secondary “guardian” model on separate inference stack, synchronizing runs to catch bad actor outputs before customer impact.
+Increased throughput by 8x for observer model inference through implementing batching
+Partnered daily with PMs, and Management to refine requirements, troubleshoot incidents, and drive improvements
+Collaborated cross-functionally with research scientists and product managers to transition Nova Act from a research prototype to a publicly available SDK, now accessible via nova.amazon.com 
+
+Amazon Web Services (AWS) Cryptography, Credential Distribution Systems, Seattle WA
+Software Development Engineer 	II									                   Jul. - Dec 2024
+Led end-to-end design and implementation of a critical scaling initiative that boosted system capacity by 10x, directly impacting AWS’s Tier-0 product’s reliability for over 80 million customers. Led a team of 2 engineers in this initiative, driving critical architectural changes that ensured continued scalability and reliability
+Design is currently in patent review, 1st author
+Identified and resolved the most common customer pain point through a well-executed design and solution, leading to a 43% reduction in customer reach outs, saving an average of 15 reach outs per week, improving overall customer satisfaction, and decreasing 19 hours a week of team members helping customer on repeated interactions
+Mentoring 2 junior engineers and 1 intern, providing guidance on best coding practices, encouraged collaboration, ensured high-quality deliverables 
+			   			               
+Software Development Engineer 	I									    Mar. 2023 - Jun 2024
+Automated customer onboarding for 5,000+ customers for our internal product with a React/Java website.
+Delivered two AWS-wide wins—refactored Java logging to save $10 M/year and cut Python monitoring runtime by 95% via profiling & parallelism—each showcased to 2,000+ leaders.
+Built a Python Assistant Chatbot (AWS Bedrock + RAG/Agents) for answering customer questions, winning “Best Project” in an org-wide hackathon.
+
+PROJECT EXPERIENCE
+
+Trained LLM From Scratch - Python 	                                                                                                                                                       	             Apr. 2025
+Trained GPT-2 Architecture based LLM from scratch on own desktop using HuggingFace Transformers and accelerator libraries in conjunction with Cuda Integration
+
+Weather Prediction Project (Based on Google DeepMind's Graphcast) - Python, ReactJS                                   	             Dec. 2023
+Developed an ML-based weather prediction system with a focus on real-time data processing, demonstrating skills in ML tools and frameworks.
+Worked on an automatic training module to update models with new weather data, showcasing my understanding of model training algorithms and dedication to research productivity.
+
+Personal Website (ethanmorgan.io) - JS, HTML, AWS, Python							             Jan. 2022
+
+EDUCATION                                                              
+
+University of Michigan, Ann Arbor, MI
+Bachelor of Science in Computer Science	   									             Dec. 2022
+
+SKILLS AND INTERESTS
+
+Programming: Java (advanced), Python (adv.), C (intermediate), JS/REACT/TS (int.)
+Interests: Distributed Systems, Natural Language Processing, Food, Matcha (ask me about my business)
+
+
+
+Things I have done since:
+Okay. Here's what I've done since. Okay. I have helped launch an external facing AI model called Nova Act. Helped create the service from the ground up. Helped re-sigh, we ran an inference cluster serving a 76B model. I did designs on how to implement a remote browser actuation system. I reduced latency by a second. I reduced overall end-to-end latency by a second through profiling the backend and the model code. I worked on optimizations to bring down the model latency. I implemented batching on our server. I worked with the batching increase the utilization by like 8X or whatever. Worked with project managers.
+
+I worked on implementing the observable model or hosting the observable model system for the main model, right? So the model that observes the main model makes sure nothing bad is happening. I also worked on implementing a content moderation system. That was taken from cross teams, that was taken from an Alexa team or something. To prevent against copyright
+
+
+Okay, mostly my interests are in machine learning. I don't really have too much experience in machine learning. I have a couple small side projects that I've done. But I do have strong software engineering skills and I do think I am interested in software and large systems. I don't think I'm necessarily good at the lower level system things like GPU compilers and stuff like that. I think I'm better at overall systems and that's where I can add value in OpenAI. But yeah, I'm very interested in product, machine learning and distributed systems.
