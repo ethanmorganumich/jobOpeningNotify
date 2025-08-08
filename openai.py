@@ -50,7 +50,8 @@ HEADERS = {
 class JobItem:
     def __init__(self, title: str, link: str, team: Optional[str], date: Optional[str] = None, 
                  description: Optional[str] = None, requirements: Optional[str] = None, 
-                 location: Optional[str] = None, posting_date: Optional[str] = None):
+                 location: Optional[str] = None, posting_date: Optional[str] = None,
+                 match_analysis: Optional[Dict] = None):
         self.title = title
         self.link = link
         self.team = team
@@ -60,6 +61,8 @@ class JobItem:
         self.requirements = requirements
         self.location = location
         self.posting_date = posting_date
+        # Match analysis fields
+        self.match_analysis = match_analysis
 
     def to_dict(self) -> Dict:
         return {
@@ -70,7 +73,8 @@ class JobItem:
             "description": self.description,
             "requirements": self.requirements,
             "location": self.location,
-            "posting_date": self.posting_date
+            "posting_date": self.posting_date,
+            "match_analysis": self.match_analysis
         }
 
     @classmethod
@@ -83,7 +87,8 @@ class JobItem:
             description=data.get('description'),
             requirements=data.get('requirements'),
             location=data.get('location'),
-            posting_date=data.get('posting_date')
+            posting_date=data.get('posting_date'),
+            match_analysis=data.get('match_analysis')
         )
 
     def __eq__(self, other):
@@ -177,6 +182,23 @@ class JobList:
         new = set(self.items) - set(other.items)
         removed = set(other.items) - set(self.items)
         return list(new), list(removed)
+    
+    def merge_with_existing(self, existing_list: 'JobList') -> 'JobList':
+        """
+        Merge current jobs with existing cache, preserving match analysis.
+        This ensures we don't lose previous analysis when updating job listings.
+        """
+        existing_by_link = {job.link: job for job in existing_list.items}
+        merged_items = []
+        
+        for current_job in self.items:
+            existing_job = existing_by_link.get(current_job.link)
+            if existing_job:
+                # Preserve existing match analysis
+                current_job.match_analysis = existing_job.match_analysis
+            merged_items.append(current_job)
+        
+        return JobList(merged_items)
 
 
 def scrape_dynamic(
@@ -288,11 +310,16 @@ class JobDetailScraper:
                 resp = self.session.get(job_url, headers=headers, timeout=15)
                 resp.raise_for_status()
                 
-                # Check for Cloudflare challenge
-                if "challenge-platform" in resp.text or "Just a moment" in resp.text:
-                    print(f"  ⚠️  Cloudflare protection detected, skipping detailed scraping")
+                # Check for Cloudflare challenge - but try to extract content anyway
+                has_cloudflare = "challenge-platform" in resp.text or "Just a moment" in resp.text
+                if has_cloudflare:
+                    print(f"  ⚠️  Cloudflare detected but will attempt extraction...")
+                
+                # Check if we got reasonable content length (Cloudflare pages can still have content)
+                if len(resp.text) < 500:
+                    print(f"  ❌ Response too short ({len(resp.text)} chars), likely blocked")
                     return {
-                        "description": "Details unavailable due to site protection",
+                        "description": "Details unavailable - response too short",
                         "requirements": None,
                         "location": None,
                         "posting_date": None
@@ -337,13 +364,16 @@ class JobDetailScraper:
             "posting_date": None
         }
         
-        # Try common selectors for job descriptions
+        # Try common selectors for job descriptions - optimized for OpenAI careers page
         description_selectors = [
             "//div[contains(@class, 'job-description')]//text()",
             "//div[contains(@class, 'description')]//text()",
             "//section[contains(@class, 'job')]//p//text()",
             "//div[contains(@class, 'content')]//p//text()",
             "//main//p//text()",
+            "//p//text()",  # More general selector for p tags
+            "//*[contains(text(), 'responsibilities') or contains(text(), 'Responsibilities')]/following-sibling::*//text()",
+            "//*[contains(text(), 'about the role') or contains(text(), 'About the role')]/following-sibling::*//text()",
         ]
         
         for selector in description_selectors:
@@ -357,12 +387,13 @@ class JobDetailScraper:
             except:
                 continue
         
-        # Try to extract location
+        # Try to extract location - improved for OpenAI page structure
         location_selectors = [
             "//span[contains(@class, 'location')]//text()",
             "//div[contains(@class, 'location')]//text()",
             "//*[contains(text(), 'Location:')]/../text()",
-            "//*[contains(text(), 'San Francisco')]//text()",
+            "//p[contains(text(), 'San Francisco') or contains(text(), 'New York') or contains(text(), 'London') or contains(text(), 'Remote')]//text()",
+            "//*[contains(text(), ' - ') and (contains(text(), 'San Francisco') or contains(text(), 'Remote') or contains(text(), 'New York'))]//text()",
         ]
         
         for selector in location_selectors:
@@ -371,6 +402,14 @@ class JobDetailScraper:
                 if texts:
                     location = self._clean_text(" ".join(texts))
                     if location:
+                        # Clean up location - extract just the meaningful location part
+                        if " - " in location:
+                            location = location.split(" - ")[1]  # Get part after dash
+                        if len(location) > 100:  # Location too long, try to extract city
+                            for city in ["San Francisco", "New York", "London", "Remote"]:
+                                if city in location:
+                                    location = city
+                                    break
                         details["location"] = location
                         break
             except:
@@ -390,6 +429,14 @@ class JobDetailScraper:
                 if texts:
                     requirements = self._clean_text(" ".join(texts))
                     if requirements and len(requirements) > 50:
+                        # Clean up requirements - limit length and filter out legal text
+                        if len(requirements) > 1000:
+                            # If too long, try to find the actual requirements part
+                            parts = requirements.split("About OpenAI")
+                            if len(parts) > 1:
+                                requirements = parts[0].strip()
+                        if len(requirements) > 800:  # Still too long, truncate
+                            requirements = requirements[:800] + "..."
                         details["requirements"] = requirements
                         break
             except:
@@ -438,6 +485,9 @@ def main(fetch_details: bool = True, max_detail_jobs: int = 5):
         print(f"Error scraping jobs: {e}")
         return []
 
+    # Merge with existing to preserve match analysis
+    scraped_list = scraped_list.merge_with_existing(existing_list)
+    
     # Compare and find differences
     new_items, removed_items = scraped_list.diff(existing_list)
     
