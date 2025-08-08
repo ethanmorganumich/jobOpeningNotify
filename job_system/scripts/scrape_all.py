@@ -10,6 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 
 from job_system.core.job_models import JobList
 from job_system.scrapers.openai_scraper import OpenAIScraper
+from job_system.scrapers.anthropic_scraper import AnthropicScraper
 
 
 def scrape_company(scraper, job_list: JobList, fetch_details=False, max_detail_jobs=5):
@@ -59,7 +60,7 @@ def main():
     parser.add_argument('--cache-file', default='jobs_cache.json', help='Jobs cache file')
     parser.add_argument('--fetch-details', action='store_true', help='Fetch job details')
     parser.add_argument('--max-detail-jobs', type=int, default=5, help='Max jobs to fetch details for per company')
-    parser.add_argument('--companies', nargs='+', choices=['openai'], default=['openai'], 
+    parser.add_argument('--companies', nargs='+', choices=['openai', 'anthropic'], default=['openai'], 
                        help='Which companies to scrape')
     
     args = parser.parse_args()
@@ -82,8 +83,7 @@ def main():
     # Scrape each company
     scrapers = {
         'openai': OpenAIScraper(),
-        # Add other scrapers here as they're implemented
-        # 'anthropic': AnthropicScraper(),
+        'anthropic': AnthropicScraper(),
     }
     
     for company in args.companies:
