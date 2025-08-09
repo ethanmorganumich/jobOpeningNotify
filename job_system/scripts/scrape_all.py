@@ -13,7 +13,7 @@ from job_system.scrapers.openai_scraper import OpenAIScraper
 from job_system.scrapers.anthropic_scraper import AnthropicScraper
 
 
-def scrape_company(scraper, job_list: JobList, fetch_details=False, max_detail_jobs=5):
+def scrape_company(scraper, job_list: JobList, fetch_details=False, max_detail_jobs=None):
     """Scrape jobs from a specific company scraper"""
     company_info = scraper.get_company_info()
     company_name = company_info['name']
@@ -40,17 +40,35 @@ def scrape_company(scraper, job_list: JobList, fetch_details=False, max_detail_j
     print(f"   Updated existing: {len(updated)}")
     print(f"   Removed (no longer available): {len(removed_jobs)}")
     
-    # Fetch details for new jobs if requested
-    if fetch_details and newly_added:
-        jobs_to_detail = newly_added[:max_detail_jobs]
-        print(f"\n📋 Fetching details for {len(jobs_to_detail)} new jobs...")
+    # Fetch details if requested
+    if fetch_details:
+        # Find jobs that need details (newly added OR existing jobs without descriptions)
+        jobs_needing_details = []
         
-        for i, job in enumerate(jobs_to_detail, 1):
-            print(f"   [{i}/{len(jobs_to_detail)}] {job.title}")
-            scraper.scrape_job_details(job)
+        # Add newly added jobs
+        jobs_needing_details.extend(newly_added)
         
-        if len(newly_added) > max_detail_jobs:
-            print(f"   ⚠️  Limited to {max_detail_jobs} jobs to avoid overwhelming the server")
+        # Add existing jobs from this company that don't have descriptions
+        existing_company_jobs = [job for job in job_list.items 
+                               if job.company == company_name and not job.description]
+        jobs_needing_details.extend(existing_company_jobs)
+        
+        # Remove duplicates and apply limit if specified
+        jobs_to_detail = list(set(jobs_needing_details))
+        if max_detail_jobs is not None:
+            jobs_to_detail = jobs_to_detail[:max_detail_jobs]
+        
+        if jobs_to_detail:
+            print(f"\n📋 Fetching details for {len(jobs_to_detail)} jobs...")
+            
+            for i, job in enumerate(jobs_to_detail, 1):
+                print(f"   [{i}/{len(jobs_to_detail)}] {job.title}")
+                scraper.scrape_job_details(job)
+            
+            if max_detail_jobs is not None and len(jobs_needing_details) > max_detail_jobs:
+                print(f"   ⚠️  Limited to {max_detail_jobs} jobs to avoid overwhelming the server")
+        else:
+            print(f"   ✅ All jobs already have details")
     
     return newly_added, removed_jobs
 
@@ -59,7 +77,7 @@ def main():
     parser = argparse.ArgumentParser(description='Scrape jobs from all companies')
     parser.add_argument('--cache-file', default='jobs_cache.json', help='Jobs cache file')
     parser.add_argument('--fetch-details', action='store_true', help='Fetch job details')
-    parser.add_argument('--max-detail-jobs', type=int, default=5, help='Max jobs to fetch details for per company')
+    parser.add_argument('--max-detail-jobs', type=int, help='Max jobs to fetch details for per company (default: all jobs)')
     parser.add_argument('--companies', nargs='+', choices=['openai', 'anthropic'], default=['openai'], 
                        help='Which companies to scrape')
     
