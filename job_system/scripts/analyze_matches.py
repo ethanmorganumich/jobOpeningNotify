@@ -19,20 +19,47 @@ def main():
     parser.add_argument('--batch-size', type=int, default=3, help='Jobs per API batch')
     parser.add_argument('--rate-limit', type=float, default=2.0, help='Seconds between batches')
     parser.add_argument('--max-jobs', type=int, help='Max jobs to analyze')
-    parser.add_argument('--api-key', help='Anthropic API key')
     parser.add_argument('--company', help='Only analyze jobs from specific company')
+    
+    # AI Provider options
+    parser.add_argument('--provider', choices=['claude', 'ollama'], default='claude', 
+                       help='AI provider to use (default: claude)')
+    parser.add_argument('--api-key', help='Anthropic API key (for Claude provider)')
+    parser.add_argument('--ollama-url', default='http://hal:11434', 
+                       help='Ollama server URL (default: http://hal:11434)')
+    parser.add_argument('--ollama-model', default='gpt-oss:20b', 
+                       help='Ollama model name (default: gpt-oss:20b)')
     
     args = parser.parse_args()
     
     print("🤖 Multi-Company Job Matcher")
     print("=" * 40)
     
-    # Initialize matcher
+    # Initialize matcher with chosen provider
+    matcher = None
     try:
-        matcher = JobMatcher(args.api_key)
-    except ValueError as e:
-        print(f"❌ Error: {e}")
-        print("Set ANTHROPIC_API_KEY environment variable or use --api-key")
+        if args.provider == 'claude':
+            matcher = JobMatcher(
+                provider='claude',
+                anthropic_api_key=args.api_key
+            )
+        elif args.provider == 'ollama':
+            matcher = JobMatcher(
+                provider='ollama', 
+                ollama_url=args.ollama_url,
+                ollama_model=args.ollama_model
+            )
+    except (ValueError, ConnectionError, ImportError) as e:
+        print(f"❌ Error initializing {args.provider} provider: {e}")
+        if args.provider == 'claude':
+            print("Set ANTHROPIC_API_KEY environment variable or use --api-key")
+        elif args.provider == 'ollama':
+            print(f"Make sure Ollama is running at {args.ollama_url}")
+            print("Or specify different URL with --ollama-url")
+        return
+    
+    if matcher is None:
+        print("❌ Failed to initialize matcher")
         return
     
     # Load job cache and resume

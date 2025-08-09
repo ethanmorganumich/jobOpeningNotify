@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
 Generic job matcher - works with jobs from any company
+Supports both Claude (Anthropic) and Ollama providers
 """
 
 import json
 import time
-from typing import List, Dict, Optional
+import requests
+from typing import List, Dict, Optional, Literal
 import os
-import anthropic as anthropic_client
 import re
 import sys
 
@@ -15,18 +16,59 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from job_system.core.job_models import JobItem, JobList
 
+# Optional imports for different providers
+try:
+    import anthropic as anthropic_client
+    HAS_ANTHROPIC = True
+except ImportError:
+    HAS_ANTHROPIC = False
+    anthropic_client = None
+
 
 class JobMatcher:
-    """Analyzes job fit using AI, works with any company's jobs"""
+    """Analyzes job fit using AI, supports Claude and Ollama providers"""
     
-    def __init__(self, anthropic_api_key: Optional[str] = None):
-        """Initialize job matcher with AI client"""
-        if anthropic_api_key:
-            self.client = anthropic_client.Anthropic(api_key=anthropic_api_key)
-        elif os.getenv('ANTHROPIC_API_KEY'):
-            self.client = anthropic_client.Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
+    def __init__(self, 
+                 provider: Literal["claude", "ollama"] = "claude",
+                 anthropic_api_key: Optional[str] = None,
+                 ollama_url: Optional[str] = None,
+                 ollama_model: str = "gpt-oss:20b"):
+        """
+        Initialize job matcher with AI provider
+        
+        Args:
+            provider: "claude" or "ollama"
+            anthropic_api_key: Claude API key (if using Claude)
+            ollama_url: Ollama server URL (if using Ollama)
+            ollama_model: Ollama model name (default: gpt-oss:20b)
+        """
+        self.provider = provider
+        self.ollama_model = ollama_model
+        
+        if provider == "claude":
+            if not HAS_ANTHROPIC:
+                raise ImportError("anthropic package required for Claude provider. Install with: pip install anthropic")
+            
+            if anthropic_api_key:
+                self.client = anthropic_client.Anthropic(api_key=anthropic_api_key)
+            elif os.getenv('ANTHROPIC_API_KEY'):
+                self.client = anthropic_client.Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
+            else:
+                raise ValueError("ANTHROPIC_API_KEY environment variable or anthropic_api_key parameter required for Claude provider")
+                
+        elif provider == "ollama":
+            self.ollama_url = ollama_url or os.getenv('OLLAMA_URL') or "http://hal:11434"
+            # Test connection to Ollama
+            try:
+                response = requests.get(f"{self.ollama_url}/api/tags", timeout=5)
+                response.raise_for_status()
+                print(f"✅ Connected to Ollama at {self.ollama_url}")
+            except Exception as e:
+                raise ConnectionError(f"Cannot connect to Ollama at {self.ollama_url}: {e}")
         else:
-            raise ValueError("ANTHROPIC_API_KEY environment variable or api_key parameter required")
+            raise ValueError("Provider must be 'claude' or 'ollama'")
+            
+        print(f"🤖 Using {provider.upper()} provider for job analysis")
     
     def load_resume(self, resume_file: str = 'resume.txt') -> str:
         """Load resume content"""
@@ -35,6 +77,41 @@ class JobMatcher:
         print(f"📄 Loaded resume ({len(resume)} characters)")
         return resume
     
+    def _call_ai_provider(self, prompt: str) -> str:
+        """Call the configured AI provider"""
+        if self.provider == "claude":
+            response = self.client.messages.create(
+                model="claude-3-5-sonnet-20241022",
+                max_tokens=4000,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            return response.content[0].text
+            
+        elif self.provider == "ollama":
+            payload = {
+                "model": self.ollama_model,
+                "prompt": prompt,
+                "stream": False,
+                "options": {
+                    "temperature": 0.1,
+                    "top_p": 0.9,
+                    "num_predict": 4000
+                }
+            }
+            
+            response = requests.post(
+                f"{self.ollama_url}/api/generate",
+                json=payload,
+                timeout=120  # 2 minute timeout for large analysis
+            )
+            response.raise_for_status()
+            
+            result = response.json()
+            return result.get("response", "")
+        
+        else:
+            raise ValueError(f"Unknown provider: {self.provider}")
+
     def analyze_job_batch(self, jobs_batch: List[JobItem], resume: str) -> List[Dict]:
         """Analyze multiple jobs in a single API call for efficiency"""
         
@@ -93,7 +170,7 @@ SCORING REQUIREMENTS:
 - A 50 score means "possible fit with some gaps"
 - A 20 score means "significant mismatch"
 
-Respond with JSON array in EXACT order:
+IMPORTANT: Respond with ONLY a valid JSON array, no extra text before or after.
 
 [
   {{
@@ -116,14 +193,7 @@ Respond with JSON array in EXACT order:
 """
         
         try:
-            response = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
-                max_tokens=4000,
-                messages=[{"role": "user", "content": prompt}]
-            )
-            
-            # Extract text from response
-            response_text = response.content[0].text
+            response_text = self._call_ai_provider(prompt)
             
             # Try to find JSON array in response
             json_match = re.search(r'\[.*\]', response_text, re.DOTALL)
