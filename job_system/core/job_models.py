@@ -152,6 +152,10 @@ class JobList:
             if existing_job:
                 # Job exists, preserve match analysis but update other fields
                 new_job.match_analysis = existing_job.match_analysis
+                new_job.description = existing_job.description
+                new_job.date = existing_job.date
+                new_job.requirements = existing_job.requirements
+                new_job.location = existing_job.location
                 # Replace existing job with updated version
                 self.items = [job if job.link != new_job.link else new_job for job in self.items]
                 updated.append(new_job)
