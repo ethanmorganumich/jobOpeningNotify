@@ -239,7 +239,7 @@ IMPORTANT: Respond with ONLY a valid JSON array, no extra text before or after.
         }
     
     def analyze_job_list(self, job_list: JobList, resume: str, 
-                        batch_size: int = 3, rate_limit: float = 2.0, 
+                        batch_size: int = 1, rate_limit: float = 2.0, 
                         max_jobs: Optional[int] = None) -> int:
         """
         Analyze unanalyzed jobs in the job list.

@@ -9,7 +9,27 @@
     "requirements": "Proficiency in MATLAB, Python, C/C++, and DSP libraries for algorithm development. Knowledge of adaptive algorithms and psychoacoustic modeling. Experience in Bluetooth audio, headphones, earbuds, or consumer product ANC systems. Understanding of machine learning approaches for adaptive",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 20,
+      "skills_match": 15,
+      "interest_alignment": 10,
+      "overall_fit": 12,
+      "experience_gap": "Lack of signal processing, DSP, and embedded systems experience",
+      "key_strengths": [
+        "Strong distributed systems and latency optimization",
+        "Experience with large-scale inference pipelines"
+      ],
+      "major_concerns": [
+        "No audio DSP or acoustic measurement background",
+        "No experience with embedded real\u2011time systems"
+      ],
+      "excitement_factor": "Role is far outside the candidate\u2019s core expertise",
+      "one_line_summary": "Poor fit; lacks core audio DSP expertise",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -22,7 +42,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 60,
+      "role_compatibility": 70,
+      "skills_match": 45,
+      "interest_alignment": 60,
+      "overall_fit": 57,
+      "experience_gap": "Limited data engineering experience (ETL, SQL, data modeling, warehouse design)",
+      "key_strengths": [
+        "AWS services and scaling experience",
+        "Python programming and monitoring infrastructure",
+        "Collaboration with cross\u2011functional teams"
+      ],
+      "major_concerns": [
+        "No explicit data pipeline or warehouse design background",
+        "Missing deep SQL and ETL tooling expertise"
+      ],
+      "excitement_factor": "Potentially exciting due to scaling and AI integration",
+      "one_line_summary": "Moderate fit; some relevant skills but missing data engineering depth",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -35,7 +76,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 30,
+      "role_compatibility": 20,
+      "skills_match": 10,
+      "interest_alignment": 15,
+      "overall_fit": 16,
+      "experience_gap": "No Tableau or data visualization experience; limited data modeling",
+      "key_strengths": [
+        "Python and AWS experience",
+        "Monitoring and alerting infrastructure"
+      ],
+      "major_concerns": [
+        "Lack of Tableau or BI tool proficiency",
+        "No experience building executive dashboards"
+      ],
+      "excitement_factor": "Not exciting due to lack of relevant skills",
+      "one_line_summary": "Very poor fit; lacks visualization and data engineering experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -48,7 +109,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 30,
+      "skills_match": 35,
+      "interest_alignment": 30,
+      "overall_fit": 25,
+      "experience_gap": "2 years of experience vs 5+ years required for seasoned engineer",
+      "key_strengths": [
+        "Strong Python and Java engineering",
+        "Experience scaling large inference pipelines",
+        "Performance optimization and latency reduction"
+      ],
+      "major_concerns": [
+        "No data engineering or ETL pipeline ownership",
+        "Lack of finance domain knowledge",
+        "Insufficient experience with high\u2011transaction volume data systems"
+      ],
+      "excitement_factor": "Low \u2013 domain and experience mismatch",
+      "one_line_summary": "Candidate lacks the depth of data engineering and finance domain expertise required for this role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -61,7 +144,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 15,
+      "role_compatibility": 10,
+      "skills_match": 20,
+      "interest_alignment": 25,
+      "overall_fit": 12,
+      "experience_gap": "2 years of experience vs senior level required",
+      "key_strengths": [
+        "Java development experience",
+        "Large\u2011scale system design",
+        "Performance tuning"
+      ],
+      "major_concerns": [
+        "No Android or mobile app development experience",
+        "Senior level expectations not met",
+        "Lack of familiarity with Android platform capabilities"
+      ],
+      "excitement_factor": "Very low \u2013 no relevant mobile experience",
+      "one_line_summary": "Not a suitable candidate for the Android engineering role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -74,7 +179,30 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 40,
+      "role_compatibility": 60,
+      "skills_match": 55,
+      "interest_alignment": 45,
+      "overall_fit": 50,
+      "experience_gap": "Limited domain experience in real estate and workplace operations",
+      "key_strengths": [
+        "Production\u2011level Python coding",
+        "Automation and integration experience",
+        "AWS infrastructure and scaling expertise",
+        "Performance optimization"
+      ],
+      "major_concerns": [
+        "Lack of real\u2011estate or workplace domain knowledge",
+        "No proven experience with third\u2011party REW applications",
+        "Uncertain fit with proprietary OpenAI technologies"
+      ],
+      "excitement_factor": "Moderate potential due to transferable engineering skills",
+      "one_line_summary": "Candidate has transferable engineering skills but lacks domain expertise for the REW role.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -87,7 +215,28 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Audio Software Engineer\\\"}],[\\...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 30,
+      "skills_match": 10,
+      "interest_alignment": 20,
+      "overall_fit": 15,
+      "experience_gap": "Lacks DSP/audio engineering experience and has only ~2 years of relevant work versus 5+ years required.",
+      "key_strengths": [
+        "Strong distributed systems and ML model deployment experience",
+        "Proficiency in Python and large\u2011scale system optimization"
+      ],
+      "major_concerns": [
+        "No background in real\u2011time DSP or audio signal processing",
+        "Limited C/C++ experience",
+        "Insufficient years of experience for a senior audio role"
+      ],
+      "excitement_factor": "The role is technically exciting but the candidate\u2019s core skill set does not align with the required DSP expertise.",
+      "one_line_summary": "Very low realistic fit; unlikely to be considered for interview.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -100,7 +249,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 30,
+      "skills_match": 15,
+      "interest_alignment": 20,
+      "overall_fit": 15,
+      "experience_gap": "No experience with camera hardware, ISP pipelines, or computational photography.",
+      "key_strengths": [
+        "Python ML experience",
+        "Distributed systems and software engineering",
+        "Experience with large\u2011scale inference pipelines"
+      ],
+      "major_concerns": [
+        "No camera or vision hardware background",
+        "Limited C++ depth",
+        "No embedded vision framework experience"
+      ],
+      "excitement_factor": "The role is appealing but the candidate\u2019s skill set is misaligned with the core camera engineering requirements.",
+      "one_line_summary": "Low fit; unlikely to be invited for an interview.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -113,7 +284,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Civil, Structural \\u0026 Archi...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 10,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 5,
+      "overall_fit": 5,
+      "experience_gap": "No civil/structural engineering or data center design experience.",
+      "key_strengths": [
+        "Software engineering",
+        "Distributed systems knowledge"
+      ],
+      "major_concerns": [
+        "Completely unrelated technical background",
+        "No experience with data center infrastructure or architectural design"
+      ],
+      "excitement_factor": "The role is unrelated to the candidate\u2019s expertise and interests.",
+      "one_line_summary": "No realistic fit; interview unlikely.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -126,7 +317,26 @@
     "requirements": "Strong knowledge of FOC (Field-Oriented Control), PID tuning, and feedback control loops. Experience working with encoder feedback systems and real-time sensor fusion techniques. Proficiency in C/C++ for implementing embedded control systems. Familiarity with motor modeling, system identification, and closed-loop control systems. Ability to work cross-functionally with mechanical, electrical, and software engineers. Preferred Qualifications Experience with multi-body simulation tools (e.g., MATLAB, Simulink, ANSYS). Knowledge of precision robotics, drone stabilization, or industrial automation systems. Familiarity with power electronics and motor drive systems.",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 40,
+      "skills_match": 20,
+      "interest_alignment": 20,
+      "overall_fit": 20,
+      "experience_gap": "2 years vs 3-5 years required",
+      "key_strengths": [
+        "Strong software engineering, distributed systems, AI inference optimization"
+      ],
+      "major_concerns": [
+        "Lack of embedded C/C++ experience",
+        "No motor control knowledge"
+      ],
+      "excitement_factor": "Role is unrelated to candidate's expertise and interests",
+      "one_line_summary": "Low fit; unlikely to be considered",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -139,7 +349,26 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 40,
+      "role_compatibility": 60,
+      "skills_match": 40,
+      "interest_alignment": 70,
+      "overall_fit": 50,
+      "experience_gap": "Limited robotics hardware experience",
+      "key_strengths": [
+        "AI inference pipeline, distributed systems, data handling"
+      ],
+      "major_concerns": [
+        "No robotics hardware integration experience",
+        "Limited real-time control experience"
+      ],
+      "excitement_factor": "Potentially interesting but missing key robotics skills",
+      "one_line_summary": "Moderate fit; could be considered with additional training",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -152,7 +381,26 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Data Center Design Engineer, E...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 10,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 5,
+      "overall_fit": 5,
+      "experience_gap": "10+ years of data center design experience required",
+      "key_strengths": [
+        "Software engineering, distributed systems"
+      ],
+      "major_concerns": [
+        "No data center design experience",
+        "No electrical/mechanical background"
+      ],
+      "excitement_factor": "Not relevant",
+      "one_line_summary": "Very low fit; not a candidate",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -165,7 +413,29 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Data Center Design Engineer, M...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 10,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 10,
+      "overall_fit": 10,
+      "experience_gap": "No mechanical or electrical engineering experience; only software engineering.",
+      "key_strengths": [
+        "Software engineering",
+        "Scaling large inference pipelines",
+        "Latency optimization",
+        "AI model monitoring"
+      ],
+      "major_concerns": [
+        "Lacks mechanical/electrical knowledge",
+        "Insufficient experience for 10+ year requirement"
+      ],
+      "excitement_factor": "Role is unrelated to candidate's skill set; unlikely to be exciting.",
+      "one_line_summary": "Candidate is a poor fit for a mechanical data center design role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -178,7 +448,29 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Data Center Research \\u0026 De...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 10,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 10,
+      "overall_fit": 10,
+      "experience_gap": "No electrical engineering or power system experience.",
+      "key_strengths": [
+        "Software engineering",
+        "Scaling large inference pipelines",
+        "Latency optimization",
+        "AI model monitoring"
+      ],
+      "major_concerns": [
+        "Lacks electrical/hardware knowledge",
+        "Insufficient experience for 10+ year requirement"
+      ],
+      "excitement_factor": "Unlikely to be exciting due to mismatch.",
+      "one_line_summary": "Candidate not suitable for electrical R&D.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -191,7 +483,29 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Data Center Research \\u0026 De...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 10,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 10,
+      "overall_fit": 10,
+      "experience_gap": "No mechanical engineering background.",
+      "key_strengths": [
+        "Software engineering",
+        "Scaling large inference pipelines",
+        "Latency optimization",
+        "AI model monitoring"
+      ],
+      "major_concerns": [
+        "Lacks mechanical knowledge",
+        "Insufficient experience for 10+ year requirement"
+      ],
+      "excitement_factor": "Not relevant to candidate's expertise.",
+      "one_line_summary": "Candidate not a fit for mechanical R&D.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -204,7 +518,30 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 15,
+      "skills_match": 30,
+      "interest_alignment": 40,
+      "overall_fit": 20,
+      "experience_gap": "Lacks senior-level experience and leadership background.",
+      "key_strengths": [
+        "Large model inference scaling",
+        "Latency optimization",
+        "Monitoring infrastructure",
+        "AWS experience"
+      ],
+      "major_concerns": [
+        "Insufficient data engineering experience",
+        "No leadership experience",
+        "Limited data pipeline expertise"
+      ],
+      "excitement_factor": "Role requires senior data engineering leadership; candidate is early career.",
+      "one_line_summary": "Unlikely fit due to insufficient experience and leadership gap.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -217,7 +554,30 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 35,
+      "role_compatibility": 70,
+      "skills_match": 40,
+      "interest_alignment": 50,
+      "overall_fit": 45,
+      "experience_gap": "Limited experience with big data frameworks and streaming platforms.",
+      "key_strengths": [
+        "AWS infrastructure experience",
+        "Large model scaling",
+        "Performance optimization",
+        "Python/Java"
+      ],
+      "major_concerns": [
+        "No Spark/Kafka/Flink/Delta experience",
+        "Limited data lake knowledge",
+        "Short tenure"
+      ],
+      "excitement_factor": "Opportunity to learn big data stack, but current skill set is incomplete.",
+      "one_line_summary": "Possible fit with significant learning curve.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -230,7 +590,30 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 10,
+      "skills_match": 15,
+      "interest_alignment": 30,
+      "overall_fit": 15,
+      "experience_gap": "No experience with manufacturing analytics or SPC.",
+      "key_strengths": [
+        "Data pipeline experience",
+        "Python",
+        "AWS",
+        "Monitoring"
+      ],
+      "major_concerns": [
+        "Domain mismatch",
+        "Lack of statistical modeling",
+        "No manufacturing data experience"
+      ],
+      "excitement_factor": "Role is too far from candidate's background.",
+      "one_line_summary": "Very unlikely fit.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -243,7 +626,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 75,
+      "role_compatibility": 85,
+      "skills_match": 80,
+      "interest_alignment": 80,
+      "overall_fit": 78,
+      "experience_gap": "Limited direct experience building public-facing developer demos and sample applications.",
+      "key_strengths": [
+        "Strong software engineering background",
+        "AWS infrastructure and scaling experience",
+        "Latency optimization",
+        "ML inference pipeline experience"
+      ],
+      "major_concerns": [
+        "Lack of explicit demo and sample app development experience",
+        "Limited deep ML model development"
+      ],
+      "excitement_factor": "Role aligns with interest in product and developer engagement, but requires more demo experience.",
+      "one_line_summary": "Good fit for a mid-level developer experience role, but missing some demo-specific experience.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -256,7 +661,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 30,
+      "role_compatibility": 40,
+      "skills_match": 35,
+      "interest_alignment": 60,
+      "overall_fit": 35,
+      "experience_gap": "No experience with distributed training frameworks, supercomputing, or GPU optimization.",
+      "key_strengths": [
+        "Distributed systems scaling experience",
+        "Performance profiling",
+        "AWS infrastructure"
+      ],
+      "major_concerns": [
+        "Lack of training framework experience",
+        "No supercomputing knowledge",
+        "Limited GPU optimization"
+      ],
+      "excitement_factor": "Highly specialized role beyond current experience.",
+      "one_line_summary": "Not a suitable fit due to lack of distributed training expertise.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -269,7 +696,28 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Embedded Software Engineer \\\"}...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 10,
+      "role_compatibility": 15,
+      "skills_match": 10,
+      "interest_alignment": 20,
+      "overall_fit": 12,
+      "experience_gap": "No embedded systems or C/C++ experience, lacks 10+ years.",
+      "key_strengths": [
+        "General software engineering",
+        "Python, Java, JS skills"
+      ],
+      "major_concerns": [
+        "No embedded experience",
+        "No C++ depth",
+        "No RTOS knowledge"
+      ],
+      "excitement_factor": "Role is far outside current skill set.",
+      "one_line_summary": "Not a fit for embedded engineering.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -282,7 +730,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 10,
+      "skills_match": 20,
+      "interest_alignment": 20,
+      "overall_fit": 15,
+      "experience_gap": "No communications or PR experience; role requires storytelling and media skills",
+      "key_strengths": [
+        "Strong engineering background with large\u2011scale system experience",
+        "Experience in cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "Lack of communications expertise",
+        "Role is not an engineering position"
+      ],
+      "excitement_factor": "Unlikely to be a good fit due to mismatch in core responsibilities",
+      "one_line_summary": "Candidate is not suited for a communications leadership role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -295,7 +763,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 10,
+      "role_compatibility": 10,
+      "skills_match": 30,
+      "interest_alignment": 30,
+      "overall_fit": 15,
+      "experience_gap": "Insufficient seniority and growth\u2011engineering experience; requires 10+ years and 6+ years in management",
+      "key_strengths": [
+        "Led a small engineering team",
+        "Product\u2011focused engineering experience"
+      ],
+      "major_concerns": [
+        "No proven growth\u2011engineering track record",
+        "Limited management tenure"
+      ],
+      "excitement_factor": "Unlikely to meet the seniority and growth focus of the role",
+      "one_line_summary": "Candidate lacks the required experience and focus for a senior growth engineering manager",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -308,7 +796,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Engineering Manager, Evals (AP...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 10,
+      "role_compatibility": 10,
+      "skills_match": 30,
+      "interest_alignment": 30,
+      "overall_fit": 15,
+      "experience_gap": "Insufficient seniority and experience managing large engineering teams; role demands 10+ years",
+      "key_strengths": [
+        "Experience with large\u2011scale AI systems",
+        "Mentoring junior engineers"
+      ],
+      "major_concerns": [
+        "No track record of managing a high\u2011performance engineering team",
+        "Limited exposure to API product lifecycle"
+      ],
+      "excitement_factor": "Unlikely to meet the seniority and product\u2011management expectations",
+      "one_line_summary": "Candidate does not meet the seniority or management depth required for the Evals engineering manager role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -321,7 +829,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 15,
+      "skills_match": 55,
+      "interest_alignment": 70,
+      "overall_fit": 30,
+      "experience_gap": "Lack of 4+ years of engineering management experience",
+      "key_strengths": [
+        "LLM inference pipeline scaling",
+        "Backend performance optimization"
+      ],
+      "major_concerns": [
+        "Insufficient management experience",
+        "Limited expertise in security, auth flows, and product design"
+      ],
+      "excitement_factor": "Exciting due to LLM work but concerned about management gap",
+      "one_line_summary": "Candidate lacks required management experience for this role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -334,7 +862,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Engineering Manager, Mulitimod...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 15,
+      "skills_match": 50,
+      "interest_alignment": 70,
+      "overall_fit": 30,
+      "experience_gap": "Insufficient multimodal API experience and management tenure",
+      "key_strengths": [
+        "LLM inference scaling",
+        "Backend performance optimization"
+      ],
+      "major_concerns": [
+        "No multimodal (speech, image) experience",
+        "Limited management experience"
+      ],
+      "excitement_factor": "Interesting but lacks core domain expertise",
+      "one_line_summary": "Not a good fit due to missing multimodal expertise.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -347,7 +895,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 60,
+      "interest_alignment": 50,
+      "overall_fit": 65,
+      "experience_gap": "Limited experience with enterprise security tools (AzureAD, GSuite, GitHub)",
+      "key_strengths": [
+        "AWS infrastructure and security experience",
+        "Python and Java backend development"
+      ],
+      "major_concerns": [
+        "Lack of specific enterprise security tool expertise",
+        "Security may not align with primary career interests"
+      ],
+      "excitement_factor": "Potential to learn security, but may not match long\u2011term interests",
+      "one_line_summary": "Moderate fit; could be considered if security interest grows.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -360,7 +928,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 20,
+      "skills_match": 15,
+      "interest_alignment": 10,
+      "overall_fit": 15,
+      "experience_gap": "Embedded firmware and low\u2011level hardware experience",
+      "key_strengths": [
+        "Large\u2011scale ML inference scaling",
+        "Python/Java engineering",
+        "Cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "Lack of embedded firmware experience",
+        "No real\u2011time hardware knowledge"
+      ],
+      "excitement_factor": "Unlikely to be a good fit; role requires specialized hardware skills",
+      "one_line_summary": "Candidate lacks the core embedded firmware expertise required for this role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -373,7 +962,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 85,
+      "skills_match": 75,
+      "interest_alignment": 80,
+      "overall_fit": 78,
+      "experience_gap": "Limited direct experience with OpenAI's proprietary models and full deployment pipelines",
+      "key_strengths": [
+        "Large model inference scaling",
+        "Latency optimization",
+        "Cross\u2011functional collaboration",
+        "Python/Java engineering"
+      ],
+      "major_concerns": [
+        "No experience with OpenAI's specific model stack",
+        "Limited public sector or customer\u2011facing deployment experience"
+      ],
+      "excitement_factor": "Strong alignment with ML deployment and scaling; could bring fresh perspective",
+      "one_line_summary": "Good fit for a forward\u2011deployed engineer, though some learning curve for OpenAI stack.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -386,7 +997,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 65,
+      "role_compatibility": 80,
+      "skills_match": 70,
+      "interest_alignment": 75,
+      "overall_fit": 72,
+      "experience_gap": "No public sector deployment experience",
+      "key_strengths": [
+        "Large model inference scaling",
+        "Python/Java engineering",
+        "Full\u2011stack development",
+        "Cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "Lack of public sector domain knowledge",
+        "Limited experience with government compliance/security"
+      ],
+      "excitement_factor": "Potentially valuable for scaling and deployment, but may need to learn public sector specifics",
+      "one_line_summary": "Reasonable fit, but missing public sector experience.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -399,7 +1032,27 @@
     "requirements": null,
     "location": "Remote",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 70,
+      "role_compatibility": 50,
+      "skills_match": 45,
+      "interest_alignment": 40,
+      "overall_fit": 50,
+      "experience_gap": "Lack of TypeScript/NextJS and large-scale front\u2011end experience",
+      "key_strengths": [
+        "Backend scaling and performance optimization",
+        "Experience with large model inference clusters"
+      ],
+      "major_concerns": [
+        "Front\u2011end skill gap",
+        "Marketing focus mismatch"
+      ],
+      "excitement_factor": "Role not aligned with candidate's strengths",
+      "one_line_summary": "Candidate has solid backend experience but lacks key front\u2011end and marketing focus for this role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -412,7 +1065,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 55,
+      "skills_match": 55,
+      "interest_alignment": 50,
+      "overall_fit": 55,
+      "experience_gap": "Limited real\u2011time scheduling and cluster resource management experience",
+      "key_strengths": [
+        "Scaling and performance optimization",
+        "Full\u2011stack experience with React/Java"
+      ],
+      "major_concerns": [
+        "Lack of scheduling UI experience",
+        "Limited cluster management exposure"
+      ],
+      "excitement_factor": "Moderate alignment with distributed systems",
+      "one_line_summary": "Candidate could contribute to backend scaling but lacks specific scheduling UI expertise.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -425,7 +1098,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 75,
+      "role_compatibility": 65,
+      "skills_match": 65,
+      "interest_alignment": 70,
+      "overall_fit": 70,
+      "experience_gap": "Limited direct UI experience for cluster management",
+      "key_strengths": [
+        "Large\u2011scale inference cluster scaling",
+        "Distributed systems experience",
+        "Performance optimization"
+      ],
+      "major_concerns": [
+        "UI/UX depth for cluster dashboards",
+        "Experience with real\u2011time monitoring tools"
+      ],
+      "excitement_factor": "Strong alignment with AI infrastructure and large models",
+      "one_line_summary": "Candidate's experience with large model inference clusters aligns well with frontier cluster needs.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -438,7 +1132,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 85,
+      "interest_alignment": 70,
+      "overall_fit": 76,
+      "experience_gap": "Limited senior\u2011level experience; only 2 years in mid\u2011level roles",
+      "key_strengths": [
+        "Strong ML infrastructure experience",
+        "Cross\u2011functional collaboration",
+        "Scalable system design"
+      ],
+      "major_concerns": [
+        "Limited experience with large\u2011scale data analytics",
+        "No explicit experience with abuse detection or policy"
+      ],
+      "excitement_factor": "Exciting due to ML and scaling focus, but may lack domain\u2011specific abuse detection experience",
+      "one_line_summary": "Good fit for a mid\u2011level engineer with ML infrastructure background, but may need to ramp up on abuse detection domain",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -451,7 +1166,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 75,
+      "role_compatibility": 85,
+      "skills_match": 90,
+      "interest_alignment": 80,
+      "overall_fit": 84,
+      "experience_gap": "None significant; experience aligns well",
+      "key_strengths": [
+        "Full\u2011stack development",
+        "Rapid prototyping",
+        "Research tool experience"
+      ],
+      "major_concerns": [
+        "Limited experience with large\u2011scale production systems",
+        "No explicit experience with research evaluation pipelines"
+      ],
+      "excitement_factor": "Very exciting due to alignment with research tooling and rapid prototyping",
+      "one_line_summary": "Strong match for a full\u2011stack engineer focused on research tooling",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -464,7 +1200,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 65,
+      "role_compatibility": 70,
+      "skills_match": 75,
+      "interest_alignment": 60,
+      "overall_fit": 69,
+      "experience_gap": "Limited compliance/security domain experience",
+      "key_strengths": [
+        "Scalable system design",
+        "AWS experience",
+        "Customer\u2011facing feature development"
+      ],
+      "major_concerns": [
+        "Lack of public sector compliance experience",
+        "Limited security policy knowledge"
+      ],
+      "excitement_factor": "Moderately interesting but may require ramp\u2011up on compliance",
+      "one_line_summary": "Decent fit but may need to learn public sector compliance",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -477,7 +1234,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 25,
+      "role_compatibility": 55,
+      "skills_match": 60,
+      "interest_alignment": 70,
+      "overall_fit": 45,
+      "experience_gap": "4 years of experience required",
+      "key_strengths": [
+        "Backend scaling and inference pipeline",
+        "Team leadership"
+      ],
+      "major_concerns": [
+        "Limited front\u2011end depth",
+        "Insufficient multimodal integration experience"
+      ],
+      "excitement_factor": "Multimodal product is exciting but lacks front\u2011end depth",
+      "one_line_summary": "Strong backend experience but missing front\u2011end depth and years of experience for Sora.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -490,7 +1267,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 75,
+      "interest_alignment": 80,
+      "overall_fit": 75,
+      "experience_gap": "",
+      "key_strengths": [
+        "Backend scaling",
+        "ML inference",
+        "Internal tooling"
+      ],
+      "major_concerns": [
+        "Limited front\u2011end depth",
+        "Limited research tool experience"
+      ],
+      "excitement_factor": "Opportunity to build internal tools for researchers aligns well",
+      "one_line_summary": "Good fit for internal tooling role, but front\u2011end depth could be improved.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -503,7 +1301,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 10,
+      "role_compatibility": 15,
+      "skills_match": 5,
+      "interest_alignment": 20,
+      "overall_fit": 15,
+      "experience_gap": "No GPU kernel development experience",
+      "key_strengths": [
+        "Backend scaling",
+        "Inference pipeline"
+      ],
+      "major_concerns": [
+        "Lack of GPU kernel experience",
+        "No hardware optimization background"
+      ],
+      "excitement_factor": "Role requires deep GPU expertise not present",
+      "one_line_summary": "Not a fit for GPU kernel engineering.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -516,7 +1334,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 10,
+      "role_compatibility": 15,
+      "skills_match": 5,
+      "interest_alignment": 20,
+      "overall_fit": 10,
+      "experience_gap": "lacks iOS development experience (Swift, Xcode, iOS SDK)",
+      "key_strengths": [
+        "strong software engineering fundamentals",
+        "distributed systems experience",
+        "scaling AI inference pipelines"
+      ],
+      "major_concerns": [
+        "no iOS or mobile development background",
+        "insufficient senior-level experience",
+        "missing platform\u2011specific skills"
+      ],
+      "excitement_factor": "unlikely to be a good match due to core skill gaps",
+      "one_line_summary": "Poor fit; lacks iOS expertise and senior experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -529,7 +1369,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 55,
+      "role_compatibility": 80,
+      "skills_match": 70,
+      "interest_alignment": 70,
+      "overall_fit": 70,
+      "experience_gap": "limited prompt engineering and GTM domain knowledge",
+      "key_strengths": [
+        "scaling AI inference and automation pipelines",
+        "cross\u2011functional collaboration with PMs and researchers",
+        "experience with distributed systems and reliability"
+      ],
+      "major_concerns": [
+        "no direct sales or marketing experience",
+        "prompt engineering depth is modest",
+        "role may require more business\u2011process focus"
+      ],
+      "excitement_factor": "interesting due to systems focus and AI\u2011first mindset",
+      "one_line_summary": "Moderate fit; strong systems background but missing some GTM depth",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -542,7 +1404,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 55,
+      "role_compatibility": 80,
+      "skills_match": 60,
+      "interest_alignment": 80,
+      "overall_fit": 70,
+      "experience_gap": "limited LLM fine\u2011tuning and research\u2011level ML depth",
+      "key_strengths": [
+        "Python ML development",
+        "inference pipeline design and optimization",
+        "experience with large\u2011scale model deployment"
+      ],
+      "major_concerns": [
+        "no deep fine\u2011tuning or adversarial robustness experience",
+        "ML research depth may be insufficient for cutting\u2011edge work",
+        "smaller portfolio of production ML systems"
+      ],
+      "excitement_factor": "good match for ML interest and production focus",
+      "one_line_summary": "Moderate fit; solid ML background but limited LLM fine\u2011tuning",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -555,7 +1439,30 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 50,
+      "role_compatibility": 80,
+      "skills_match": 55,
+      "interest_alignment": 70,
+      "overall_fit": 61,
+      "experience_gap": "Limited multimodal perception and biometrics experience; only 2 years of ML production experience",
+      "key_strengths": [
+        "Production ML inference pipeline scaling",
+        "Latency optimization",
+        "Cross\u2011functional collaboration",
+        "Leadership of small team"
+      ],
+      "major_concerns": [
+        "Lack of video/audio perception expertise",
+        "Short tenure",
+        "No biometrics experience"
+      ],
+      "excitement_factor": "Exciting due to ML production experience, but missing core domain skills",
+      "one_line_summary": "Candidate has relevant ML production experience but lacks specific multimodal perception expertise; moderate fit",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -568,7 +1475,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 5,
+      "overall_fit": 10,
+      "experience_gap": "No hardware or manufacturing experience",
+      "key_strengths": [
+        "Software engineering",
+        "Distributed systems"
+      ],
+      "major_concerns": [
+        "No hardware design",
+        "No manufacturing process knowledge"
+      ],
+      "excitement_factor": "Not relevant",
+      "one_line_summary": "Strong mismatch; unlikely fit",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -581,7 +1508,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 10,
+      "role_compatibility": 5,
+      "skills_match": 5,
+      "interest_alignment": 5,
+      "overall_fit": 5,
+      "experience_gap": "No mechanical or robotics experience",
+      "key_strengths": [
+        "Software engineering",
+        "ML inference scaling"
+      ],
+      "major_concerns": [
+        "No mechanical design",
+        "No robotics hardware experience"
+      ],
+      "excitement_factor": "Not relevant",
+      "one_line_summary": "Very poor fit",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -594,7 +1541,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 65,
+      "role_compatibility": 85,
+      "skills_match": 75,
+      "interest_alignment": 80,
+      "overall_fit": 73,
+      "experience_gap": "Limited direct experience with large\u2011scale distributed training frameworks and supercomputer performance tuning",
+      "key_strengths": [
+        "Proven performance optimization on large inference pipelines",
+        "Experience scaling inference clusters and reducing latency",
+        "Cross\u2011functional collaboration with research scientists and product managers"
+      ],
+      "major_concerns": [
+        "Lack of explicit distributed training experience",
+        "No deep GPU or supercomputer performance background"
+      ],
+      "excitement_factor": "Strong inference pipeline experience aligns with OpenAI\u2019s focus on inference, but missing depth in training infra",
+      "one_line_summary": "Solid fit for ML infrastructure but may need to ramp up on distributed training and supercomputer tuning",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -607,7 +1575,26 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 0,
+      "role_compatibility": 10,
+      "skills_match": 0,
+      "interest_alignment": 0,
+      "overall_fit": 5,
+      "experience_gap": "No experience with packaging design, CAD tools, or hardware manufacturing",
+      "key_strengths": [
+        "None relevant to packaging design"
+      ],
+      "major_concerns": [
+        "Complete lack of domain knowledge",
+        "No CAD or material science experience"
+      ],
+      "excitement_factor": "Not applicable \u2013 role is outside candidate\u2019s skill set",
+      "one_line_summary": "Clear mismatch \u2013 candidate lacks any relevant experience or interest in packaging design",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -620,7 +1607,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 75,
+      "interest_alignment": 85,
+      "overall_fit": 78,
+      "experience_gap": "Limited exposure to API\u2011level performance and large\u2011scale distributed systems beyond inference",
+      "key_strengths": [
+        "Strong performance optimization and profiling skills",
+        "Experience scaling inference clusters and reducing latency",
+        "Cross\u2011functional collaboration with infra and product teams"
+      ],
+      "major_concerns": [
+        "Need to ramp up on API\u2011level latency, throughput, and cost\u2011efficiency",
+        "Less experience with network, storage, and Python runtime tuning at scale"
+      ],
+      "excitement_factor": "Performance focus aligns well with candidate\u2019s strengths and interests",
+      "one_line_summary": "Good fit for performance engineering, but may need to deepen knowledge of API\u2011level performance",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -633,7 +1641,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 20,
+      "skills_match": 30,
+      "interest_alignment": 50,
+      "overall_fit": 20,
+      "experience_gap": "10+ years required vs 2 years",
+      "key_strengths": [
+        "Inference pipeline scaling",
+        "Performance optimization",
+        "ML model deployment"
+      ],
+      "major_concerns": [
+        "Lack of GPU cluster ops experience",
+        "Insufficient Kubernetes expertise",
+        "Limited seniority"
+      ],
+      "excitement_factor": "Role demands deep GPU ops expertise beyond current experience",
+      "one_line_summary": "Candidate lacks the senior GPU platform experience required for this role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -646,7 +1676,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 25,
+      "role_compatibility": 30,
+      "skills_match": 35,
+      "interest_alignment": 60,
+      "overall_fit": 30,
+      "experience_gap": "Principal role requires 10+ years vs 2 years",
+      "key_strengths": [
+        "Enterprise product collaboration",
+        "Performance optimization",
+        "ML inference experience"
+      ],
+      "major_concerns": [
+        "Insufficient seniority",
+        "Limited governance/security depth",
+        "Missing deep product scaling experience"
+      ],
+      "excitement_factor": "Role aligns with product and ML interests but seniority gap is significant",
+      "one_line_summary": "Candidate is underqualified for principal level, but has relevant product experience.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -659,7 +1711,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 25,
+      "skills_match": 25,
+      "interest_alignment": 55,
+      "overall_fit": 25,
+      "experience_gap": "Principal role requires 10+ years vs 2 years",
+      "key_strengths": [
+        "Data pipeline experience",
+        "Security awareness",
+        "Monitoring"
+      ],
+      "major_concerns": [
+        "Lack of privacy/legal compliance experience",
+        "Limited large-scale data handling",
+        "Insufficient seniority"
+      ],
+      "excitement_factor": "Privacy platform work is interesting but candidate lacks domain expertise",
+      "one_line_summary": "Candidate does not meet seniority or privacy domain requirements.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -672,7 +1746,30 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 35,
+      "role_compatibility": 10,
+      "skills_match": 10,
+      "interest_alignment": 20,
+      "overall_fit": 15,
+      "experience_gap": "Lack of hardware/PCB manufacturing experience",
+      "key_strengths": [
+        "Software engineering",
+        "Distributed systems",
+        "Performance optimization",
+        "AWS infrastructure"
+      ],
+      "major_concerns": [
+        "No hardware or manufacturing background",
+        "Limited experience with PCB/PCBa processes",
+        "Small team leadership experience"
+      ],
+      "excitement_factor": "Role is unrelated to candidate's skill set and interests",
+      "one_line_summary": "Poor fit due to lack of hardware and manufacturing expertise",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -685,7 +1782,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 80,
+      "interest_alignment": 80,
+      "overall_fit": 78,
+      "experience_gap": "Limited experience leading large research infrastructure teams; small team size",
+      "key_strengths": [
+        "Performance optimization",
+        "Distributed systems",
+        "AWS infrastructure",
+        "Scaling large model inference"
+      ],
+      "major_concerns": [
+        "Limited depth in research-level ML algorithm implementation",
+        "Small team leadership experience"
+      ],
+      "excitement_factor": "Role aligns well with his experience and interests; potential for growth",
+      "one_line_summary": "Strong fit; likely to be considered for interview",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -698,7 +1817,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 60,
+      "role_compatibility": 70,
+      "skills_match": 65,
+      "interest_alignment": 70,
+      "overall_fit": 65,
+      "experience_gap": "Limited research-level ML algorithm implementation experience; small team size",
+      "key_strengths": [
+        "Software engineering",
+        "Distributed systems",
+        "Performance optimization",
+        "Large model inference"
+      ],
+      "major_concerns": [
+        "Lack of deep research experience",
+        "Limited exposure to cutting\u2011edge ML research"
+      ],
+      "excitement_factor": "Opportunity to deepen research skills; aligns with interests",
+      "one_line_summary": "Moderate fit; may be considered but has gaps",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -711,7 +1852,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 60,
+      "role_compatibility": 80,
+      "skills_match": 85,
+      "interest_alignment": 85,
+      "overall_fit": 78,
+      "experience_gap": "Limited research publication record and less than 3 years of research engineering experience.",
+      "key_strengths": [
+        "Large-scale model inference optimization",
+        "Cross-functional collaboration with PMs and researchers",
+        "AWS infrastructure scaling"
+      ],
+      "major_concerns": [
+        "Limited research depth",
+        "No published papers"
+      ],
+      "excitement_factor": "Exciting due to alignment with large model deployment experience.",
+      "one_line_summary": "Strong engineering fit but may need to demonstrate research depth.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -724,7 +1886,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 60,
+      "role_compatibility": 80,
+      "skills_match": 85,
+      "interest_alignment": 90,
+      "overall_fit": 79,
+      "experience_gap": "Limited research publication record and less than 3 years of research engineering experience.",
+      "key_strengths": [
+        "Large-scale model inference optimization",
+        "Cross-functional collaboration with PMs and researchers",
+        "AWS infrastructure scaling",
+        "Experience with agentic coding systems"
+      ],
+      "major_concerns": [
+        "Limited research depth",
+        "No published papers"
+      ],
+      "excitement_factor": "Exciting due to strong coding and agentic system experience.",
+      "one_line_summary": "Good fit for coding-focused research but needs deeper research credentials.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -737,7 +1921,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 55,
+      "role_compatibility": 70,
+      "skills_match": 80,
+      "interest_alignment": 70,
+      "overall_fit": 69,
+      "experience_gap": "Lack of domain expertise in high-impact fields and limited strategic deployment experience.",
+      "key_strengths": [
+        "Large-scale model inference optimization",
+        "Cross-functional collaboration with PMs and researchers",
+        "AWS infrastructure scaling"
+      ],
+      "major_concerns": [
+        "Limited research depth",
+        "No published papers",
+        "Domain knowledge gap"
+      ],
+      "excitement_factor": "Concerning due to mismatch in domain focus.",
+      "one_line_summary": "Engineering skills strong but domain mismatch limits fit.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -750,7 +1956,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 35,
+      "role_compatibility": 55,
+      "skills_match": 60,
+      "interest_alignment": 70,
+      "overall_fit": 55,
+      "experience_gap": "lacks 1+ year of research\u2011engineering experience and deep safety\u2011evaluation expertise",
+      "key_strengths": [
+        "strong distributed systems and cloud engineering",
+        "ML model deployment and optimization experience"
+      ],
+      "major_concerns": [
+        "limited research publication record",
+        "no explicit safety\u2011evaluation or red\u2011team experience"
+      ],
+      "excitement_factor": "role aligns with his interest in AI safety but may be slightly senior for his current experience level",
+      "one_line_summary": "Realistic fit with some gaps; could be considered for interview with a focus on ML engineering contributions",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -763,7 +1989,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 35,
+      "role_compatibility": 55,
+      "skills_match": 55,
+      "interest_alignment": 70,
+      "overall_fit": 55,
+      "experience_gap": "lacks deep research experience and human\u2011machine interaction expertise",
+      "key_strengths": [
+        "proficient in Python and Java for large\u2011scale systems",
+        "experience building ML\u2011based assistants and monitoring tools"
+      ],
+      "major_concerns": [
+        "no demonstrated HMI research",
+        "limited exposure to synthetic data generation for alignment"
+      ],
+      "excitement_factor": "interest in human\u2011centered AI is a good match, but technical depth may be insufficient",
+      "one_line_summary": "Possible fit with gaps; interview could focus on ML engineering strengths",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -776,7 +2022,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 20,
+      "skills_match": 20,
+      "interest_alignment": 20,
+      "overall_fit": 20,
+      "experience_gap": "no biology or CBRN domain knowledge; lacks relevant safety\u2011engineering experience",
+      "key_strengths": [
+        "distributed systems and cloud deployment",
+        "ML model inference optimization"
+      ],
+      "major_concerns": [
+        "complete mismatch in domain expertise",
+        "insufficient safety\u2011engineering background"
+      ],
+      "excitement_factor": "role is too far outside his skill set and interests",
+      "one_line_summary": "Significant mismatch; unlikely to be considered for interview",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -789,7 +2055,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 60,
+      "role_compatibility": 50,
+      "skills_match": 30,
+      "interest_alignment": 60,
+      "overall_fit": 55,
+      "experience_gap": "lacks hands\u2011on differential privacy, federated learning, and data memorization experience",
+      "key_strengths": [
+        "Strong software engineering background with large\u2011scale inference pipelines",
+        "Experience building privacy\u2011monitoring infrastructure and content moderation systems"
+      ],
+      "major_concerns": [
+        "Missing core privacy\u2011enhancing technology expertise",
+        "Limited research\u2011grade exposure to privacy\u2011preserving ML methods"
+      ],
+      "excitement_factor": "concerned \u2013 the role demands deep privacy research skills that are not evident in the r\u00e9sum\u00e9",
+      "one_line_summary": "Candidate has solid engineering chops but lacks the specialized privacy research experience required for this role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -802,7 +2088,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 70,
+      "interest_alignment": 80,
+      "overall_fit": 75,
+      "experience_gap": "limited direct reinforcement\u2011learning experience",
+      "key_strengths": [
+        "Designed and shipped a web\u2011browser agent (Nova\u2011Act) with multi\u2011step action capabilities",
+        "Strong ML and Python background, plus proven product\u2011delivery track record"
+      ],
+      "major_concerns": [
+        "No explicit RL or agent\u2011specific research publications",
+        "Experience with large\u2011scale inference rather than low\u2011level agent training"
+      ],
+      "excitement_factor": "exciting \u2013 the agent work aligns closely with the role\u2019s focus on agent research and productization",
+      "one_line_summary": "Good fit: engineering depth in agents and ML, with only a modest gap in RL expertise",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -815,7 +2121,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 60,
+      "role_compatibility": 40,
+      "skills_match": 20,
+      "interest_alignment": 40,
+      "overall_fit": 40,
+      "experience_gap": "no alignment research or safety\u2011engineering experience",
+      "key_strengths": [
+        "Solid distributed\u2011systems and large\u2011scale ML engineering experience",
+        "Proven ability to ship production services at scale"
+      ],
+      "major_concerns": [
+        "Lack of alignment or safety research background",
+        "No demonstrated work on human intent following or adversarial robustness"
+      ],
+      "excitement_factor": "concerning \u2013 the role requires specialized alignment expertise that is missing",
+      "one_line_summary": "Mismatch: engineering strengths do not compensate for the absence of alignment research experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -828,7 +2154,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 25,
+      "skills_match": 35,
+      "interest_alignment": 60,
+      "overall_fit": 25,
+      "experience_gap": "Lack of research experience and depth in ML; only 2.5 years",
+      "key_strengths": [
+        "Strong software engineering, distributed systems, inference pipeline optimization",
+        "Experience with large-scale AI model deployment"
+      ],
+      "major_concerns": [
+        "Limited research background",
+        "No publications or deep ML expertise",
+        "Short tenure"
+      ],
+      "excitement_factor": "Exciting due to AI focus, but concerning due to mismatch in research depth",
+      "one_line_summary": "Candidate has solid engineering but lacks the research depth required for a Deep Research scientist role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -841,7 +2188,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 15,
+      "role_compatibility": 20,
+      "skills_match": 30,
+      "interest_alignment": 55,
+      "overall_fit": 20,
+      "experience_gap": "No experience with large ML codebases or alignment evals",
+      "key_strengths": [
+        "Experience with observer model monitoring",
+        "Strong software engineering background"
+      ],
+      "major_concerns": [
+        "No alignment or eval experience",
+        "Limited ML research",
+        "Short tenure"
+      ],
+      "excitement_factor": "Interesting product focus but lacking alignment expertise",
+      "one_line_summary": "Not a good fit for Model Behavior due to missing alignment and eval experience.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -854,7 +2222,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 25,
+      "role_compatibility": 30,
+      "skills_match": 40,
+      "interest_alignment": 65,
+      "overall_fit": 35,
+      "experience_gap": "Limited RL and post\u2011training experience",
+      "key_strengths": [
+        "ML engineering, inference optimization",
+        "Experience with large\u2011scale model deployment"
+      ],
+      "major_concerns": [
+        "No RL or post\u2011training experience",
+        "Short tenure",
+        "No deep learning research"
+      ],
+      "excitement_factor": "Potentially interesting but missing key RL/post\u2011training skills",
+      "one_line_summary": "Candidate could be considered for a junior post\u2011training role but lacks depth.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -867,7 +2256,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 40,
+      "skills_match": 35,
+      "interest_alignment": 45,
+      "overall_fit": 30,
+      "experience_gap": "Lack of reinforcement learning research experience",
+      "key_strengths": [
+        "Large model inference pipeline",
+        "Latency optimization",
+        "Distributed systems expertise"
+      ],
+      "major_concerns": [
+        "No RL experience",
+        "Limited research depth in RL"
+      ],
+      "excitement_factor": "RL research is niche; candidate lacks core expertise",
+      "one_line_summary": "Unlikely fit due to missing RL background",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -880,7 +2290,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 60,
+      "role_compatibility": 80,
+      "skills_match": 70,
+      "interest_alignment": 75,
+      "overall_fit": 70,
+      "experience_gap": "Limited direct retrieval algorithm experience",
+      "key_strengths": [
+        "Inference pipeline scaling",
+        "Latency optimization",
+        "RAG/Agents chatbot development"
+      ],
+      "major_concerns": [
+        "Lack of deep retrieval research",
+        "No explicit search algorithm experience"
+      ],
+      "excitement_factor": "Applied engineering aligns with candidate's strengths",
+      "one_line_summary": "Good fit for applied engineering role with some gaps",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -893,7 +2324,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 65,
+      "role_compatibility": 85,
+      "skills_match": 80,
+      "interest_alignment": 70,
+      "overall_fit": 75,
+      "experience_gap": "Limited formal safety research experience",
+      "key_strengths": [
+        "Observer model monitoring",
+        "Content moderation",
+        "Distributed systems"
+      ],
+      "major_concerns": [
+        "No formal safety research background",
+        "Limited alignment research experience"
+      ],
+      "excitement_factor": "Safety engineering matches candidate's monitoring experience",
+      "one_line_summary": "Strong fit for safety engineering with minor gaps",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -906,7 +2358,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 30,
+      "skills_match": 35,
+      "interest_alignment": 40,
+      "overall_fit": 25,
+      "experience_gap": "Limited research experience and depth in AI safety; only 2 years in industry",
+      "key_strengths": [
+        "Strong software engineering, distributed systems, large model inference optimization",
+        "Experience with observer models and safety monitoring"
+      ],
+      "major_concerns": [
+        "Lack of deep research background",
+        "No experience with RLHF or health data"
+      ],
+      "excitement_factor": "Role is exciting but candidate lacks core research depth",
+      "one_line_summary": "Candidate is underqualified for a research scientist role in health AI",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -919,7 +2391,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 25,
+      "skills_match": 30,
+      "interest_alignment": 35,
+      "overall_fit": 22,
+      "experience_gap": "No experience in interpretability research or internal representation analysis",
+      "key_strengths": [
+        "Strong ML engineering, inference pipeline experience",
+        "Python and data engineering"
+      ],
+      "major_concerns": [
+        "Missing interpretability tools",
+        "Limited research publication record"
+      ],
+      "excitement_factor": "Interest in safety but not interpretability",
+      "one_line_summary": "Candidate unlikely to meet expectations for interpretability research",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -932,7 +2424,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 25,
+      "skills_match": 30,
+      "interest_alignment": 35,
+      "overall_fit": 23,
+      "experience_gap": "No multimodal or vision experience",
+      "key_strengths": [
+        "Large model inference, latency optimization",
+        "Distributed systems"
+      ],
+      "major_concerns": [
+        "Lack of multimodal expertise",
+        "No experience with vision datasets"
+      ],
+      "excitement_factor": "Role exciting but candidate lacks multimodal background",
+      "one_line_summary": "Candidate not a good fit for multimodal research",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -945,7 +2457,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 50,
+      "skills_match": 40,
+      "interest_alignment": 60,
+      "overall_fit": 30,
+      "experience_gap": "Limited research experience and lack of multimodal model exposure",
+      "key_strengths": [
+        "Large\u2011scale inference pipeline engineering",
+        "Latency optimization and observer\u2011model monitoring"
+      ],
+      "major_concerns": [
+        "No research publications or deep multimodal expertise",
+        "Primarily engineering focus rather than rigorous science"
+      ],
+      "excitement_factor": "Exciting product\u2011shipping background but may not meet research depth required",
+      "one_line_summary": "Strong engineering but insufficient research depth for a multimodal research role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -958,7 +2490,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 30,
+      "role_compatibility": 55,
+      "skills_match": 45,
+      "interest_alignment": 70,
+      "overall_fit": 40,
+      "experience_gap": "No formal safety research background or adversarial training experience",
+      "key_strengths": [
+        "Safety monitoring and observer\u2011model implementation",
+        "Scalable system design for high\u2011volume traffic"
+      ],
+      "major_concerns": [
+        "Lack of adversarial robustness work or privacy\u2011focused research",
+        "No published safety research or policy\u2011enforcement experience"
+      ],
+      "excitement_factor": "Safety focus aligns with interests but research depth is lacking",
+      "one_line_summary": "Safety monitoring experience is a plus, but research depth is insufficient for senior safety research",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -971,7 +2523,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 30,
+      "role_compatibility": 55,
+      "skills_match": 45,
+      "interest_alignment": 70,
+      "overall_fit": 40,
+      "experience_gap": "No formal safety research background or adversarial training experience",
+      "key_strengths": [
+        "Observer\u2011model monitoring and content moderation",
+        "Scalable system design for high\u2011volume traffic"
+      ],
+      "major_concerns": [
+        "Lack of adversarial robustness work or privacy\u2011focused research",
+        "No published safety research or policy\u2011enforcement experience"
+      ],
+      "excitement_factor": "Safety oversight aligns with interests but research depth is lacking",
+      "one_line_summary": "Strong engineering for safety monitoring, but insufficient research depth for senior oversight role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -984,7 +2556,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 50,
+      "skills_match": 40,
+      "interest_alignment": 70,
+      "overall_fit": 45,
+      "experience_gap": "2\u20133 years less than typical 5+ year requirement for research engineer roles",
+      "key_strengths": [
+        "Proven ability to productionize large\u2011scale inference pipelines",
+        "Strong distributed systems and latency optimization experience",
+        "Cross\u2011functional collaboration with PMs, scientists, and management"
+      ],
+      "major_concerns": [
+        "Limited formal research experience and publications",
+        "Missing deep knowledge of frontier model generalization, robustness, and steerability",
+        "Experience level below what OpenAI typically expects for a research engineer"
+      ],
+      "excitement_factor": "The role\u2019s focus on real\u2011world deployment aligns with his experience, but the depth of research required may be a hurdle",
+      "one_line_summary": "A solid engineering background but likely insufficient research depth and experience for a senior research engineer at OpenAI",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -997,7 +2591,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 30,
+      "role_compatibility": 40,
+      "skills_match": 30,
+      "interest_alignment": 60,
+      "overall_fit": 35,
+      "experience_gap": "No demonstrated safety or policy research experience",
+      "key_strengths": [
+        "Experience building observer models for safety monitoring",
+        "Strong ML engineering and inference pipeline skills",
+        "Interest in societal impacts of AI"
+      ],
+      "major_concerns": [
+        "Lack of experience translating policy problems into technical solutions",
+        "No background in safety systems or societal impact research",
+        "Experience level below typical expectations for a research scientist in trustworthy AI"
+      ],
+      "excitement_factor": "The mission of trustworthy AI is compelling, but the candidate\u2019s skill set is not a close match",
+      "one_line_summary": "Unlikely to be a strong fit due to missing safety research experience and lower seniority",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1010,7 +2626,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 30,
+      "role_compatibility": 50,
+      "skills_match": 45,
+      "interest_alignment": 70,
+      "overall_fit": 45,
+      "experience_gap": "Limited architecture\u2011level design and research experience",
+      "key_strengths": [
+        "Hands\u2011on experience with large\u2011scale inference, batching, and latency optimization",
+        "Strong distributed systems and cloud engineering background",
+        "Demonstrated ability to scale services for millions of users"
+      ],
+      "major_concerns": [
+        "No deep experience with LLM architecture research or training pipeline design",
+        "Experience level below what OpenAI typically seeks for training\u2011architecture roles",
+        "Lack of published research or patents in model architecture"
+      ],
+      "excitement_factor": "Engineering focus aligns with his strengths, but the research depth required may be a barrier",
+      "one_line_summary": "Could be considered for a junior or associate role, but likely needs more experience to meet OpenAI\u2019s expectations",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1023,7 +2661,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"RF \\u0026 Baseband Engineer \\\"...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 15,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 5,
+      "overall_fit": 5,
+      "experience_gap": "No hardware/RF experience",
+      "key_strengths": [
+        "Software engineering",
+        "Large-scale ML inference"
+      ],
+      "major_concerns": [
+        "Lack of RF/PCB knowledge",
+        "No hardware design experience"
+      ],
+      "excitement_factor": "Not aligned with candidate's background",
+      "one_line_summary": "Extremely poor fit; unlikely to be considered",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1036,7 +2694,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 50,
+      "role_compatibility": 70,
+      "skills_match": 45,
+      "interest_alignment": 60,
+      "overall_fit": 55,
+      "experience_gap": "Limited explicit security engineering experience",
+      "key_strengths": [
+        "AI system experience",
+        "Monitoring",
+        "Distributed systems"
+      ],
+      "major_concerns": [
+        "Lack of formal security framework experience",
+        "Threat modeling"
+      ],
+      "excitement_factor": "Potentially interesting due to AI focus, but security depth lacking",
+      "one_line_summary": "Possible fit with gaps; may need to prove security chops",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1049,7 +2728,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 55,
+      "role_compatibility": 70,
+      "skills_match": 50,
+      "interest_alignment": 55,
+      "overall_fit": 60,
+      "experience_gap": "No direct cloud security or infrastructure security experience",
+      "key_strengths": [
+        "AWS experience",
+        "Scaling",
+        "Monitoring",
+        "Distributed systems"
+      ],
+      "major_concerns": [
+        "Lack of security framework experience",
+        "Threat modeling"
+      ],
+      "excitement_factor": "Moderately interesting due to AWS background",
+      "one_line_summary": "Moderate fit; could be considered if security experience can be demonstrated",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1062,7 +2763,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 55,
+      "role_compatibility": 60,
+      "skills_match": 45,
+      "interest_alignment": 35,
+      "overall_fit": 45,
+      "experience_gap": "Limited deep security engineering and incident response experience",
+      "key_strengths": [
+        "Observer-model monitoring and scaling large inference pipelines",
+        "Cross\u2011functional collaboration with PMs, researchers, and management"
+      ],
+      "major_concerns": [
+        "Lack of core security expertise (e.g., threat hunting, incident response)",
+        "Insufficient experience with insider\u2011threat detection tools and frameworks"
+      ],
+      "excitement_factor": "Concerned due to mismatch in security depth",
+      "one_line_summary": "Candidate has some relevant experience but lacks core security expertise for this role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1075,7 +2796,24 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 10,
+      "role_compatibility": 5,
+      "skills_match": 5,
+      "interest_alignment": 5,
+      "overall_fit": 5,
+      "experience_gap": "No HR or people\u2011management experience",
+      "key_strengths": [],
+      "major_concerns": [
+        "No HR experience or knowledge of HR processes",
+        "No relevant skill set for people\u2011management or organizational design"
+      ],
+      "excitement_factor": "Not relevant",
+      "one_line_summary": "Candidate is not a fit for an HR role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1088,7 +2826,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 50,
+      "role_compatibility": 70,
+      "skills_match": 55,
+      "interest_alignment": 70,
+      "overall_fit": 60,
+      "experience_gap": "Limited research background and multimodal SoTA model experience",
+      "key_strengths": [
+        "Large\u2011model inference scaling and batching",
+        "Latency optimization and real\u2011time data processing",
+        "ML product shipping experience"
+      ],
+      "major_concerns": [
+        "Lack of deep research experience and multimodal model expertise",
+        "No proven experience with compute\u2011constrained hardware for inference"
+      ],
+      "excitement_factor": "Some overlap but gaps in research depth",
+      "one_line_summary": "Candidate could be considered but may need to prove research capabilities",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1101,7 +2860,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 30,
+      "skills_match": 25,
+      "interest_alignment": 40,
+      "overall_fit": 20,
+      "experience_gap": "2 years of experience vs 6+ years required for senior research engineer",
+      "key_strengths": [
+        "AI product shipping (Nova-Act)",
+        "Distributed system scaling and latency optimization"
+      ],
+      "major_concerns": [
+        "Lack of research background and publication record",
+        "Limited experience with sensor data and multimodal SoTA models"
+      ],
+      "excitement_factor": "Research\u2011heavy role may be challenging for a candidate with primarily engineering experience",
+      "one_line_summary": "Low realistic fit due to significant experience and skill gaps",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1114,7 +2893,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Senior Software Engineer, Data...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 15,
+      "role_compatibility": 25,
+      "skills_match": 20,
+      "interest_alignment": 30,
+      "overall_fit": 15,
+      "experience_gap": "2 years of experience vs 6+ years required for senior software engineer",
+      "key_strengths": [
+        "Scalable infrastructure design",
+        "Python performance optimization"
+      ],
+      "major_concerns": [
+        "No experience with large\u2011scale web crawling or data ingestion pipelines",
+        "Limited Kubernetes and IaC knowledge"
+      ],
+      "excitement_factor": "Data acquisition may not align with the candidate\u2019s stated interests in ML and product",
+      "one_line_summary": "Very low fit; candidate lacks core domain experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1127,7 +2926,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 35,
+      "skills_match": 15,
+      "interest_alignment": 35,
+      "overall_fit": 20,
+      "experience_gap": "2 years of experience vs 6+ years required for senior software engineer",
+      "key_strengths": [
+        "Java and Python development experience",
+        "Experience building internal services"
+      ],
+      "major_concerns": [
+        "No demonstrated experience with authentication, authorization, or identity platforms",
+        "Lack of security and compliance focus"
+      ],
+      "excitement_factor": "Identity platform could be interesting but candidate lacks the necessary domain expertise",
+      "one_line_summary": "Low fit; missing critical identity\u2011platform experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1140,7 +2959,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 50,
+      "skills_match": 70,
+      "interest_alignment": 60,
+      "overall_fit": 55,
+      "experience_gap": "Lacks 3+ years of senior-level experience",
+      "key_strengths": [
+        "Strong distributed systems and large\u2011model inference optimization",
+        "Proven ability to reduce latency and improve throughput"
+      ],
+      "major_concerns": [
+        "Limited senior\u2011level support experience",
+        "No direct OpenAI product or API troubleshooting background"
+      ],
+      "excitement_factor": "Exciting due to large\u2011model work, but concerns about seniority and support depth",
+      "one_line_summary": "Potentially a fit but missing seniority and direct support experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1153,7 +2992,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 10,
+      "role_compatibility": 20,
+      "skills_match": 60,
+      "interest_alignment": 50,
+      "overall_fit": 35,
+      "experience_gap": "Insufficient lead and incident\u2011management experience",
+      "key_strengths": [
+        "Mentorship of junior engineers",
+        "Large\u2011scale system design and optimization"
+      ],
+      "major_concerns": [
+        "No proven lead or team\u2011management track record",
+        "Limited incident\u2011management tooling experience"
+      ],
+      "excitement_factor": "Leadership opportunity but lacking the required experience",
+      "one_line_summary": "Unlikely fit due to lack of lead experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1166,7 +3025,26 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Sensor Metrology \\u0026 Test E...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 0,
+      "role_compatibility": 0,
+      "skills_match": 0,
+      "interest_alignment": 20,
+      "overall_fit": 5,
+      "experience_gap": "No hardware or sensor\u2011testing experience",
+      "key_strengths": [
+        "Strong software engineering background"
+      ],
+      "major_concerns": [
+        "No physics, optics, or sensor\u2011testing knowledge",
+        "Role is outside candidate\u2019s skill set"
+      ],
+      "excitement_factor": "Not relevant to candidate\u2019s expertise",
+      "one_line_summary": "Not a fit",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1179,7 +3057,24 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 10,
+      "role_compatibility": 15,
+      "skills_match": 5,
+      "interest_alignment": 10,
+      "overall_fit": 10,
+      "experience_gap": "Requires 10+ years of hardware system design and signal integrity expertise; candidate has no hardware experience",
+      "key_strengths": [],
+      "major_concerns": [
+        "No hardware or signal integrity background",
+        "Job is a hardware engineering role, not software"
+      ],
+      "excitement_factor": "Role is unrelated to candidate's background and interests",
+      "one_line_summary": "Not a realistic fit for this position",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1192,7 +3087,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 60,
+      "interest_alignment": 80,
+      "overall_fit": 70,
+      "experience_gap": "Lacks deep low\u2011level accelerator kernel development and CUDA/C++ expertise",
+      "key_strengths": [
+        "Performance optimization and profiling experience",
+        "Distributed systems scaling",
+        "Experience with large\u2011scale inference pipelines"
+      ],
+      "major_concerns": [
+        "Limited kernel/accelerator low\u2011level experience",
+        "Shallow depth in C++/CUDA and hardware\u2011specific optimizations"
+      ],
+      "excitement_factor": "Role aligns with candidate\u2019s scaling and performance interests",
+      "one_line_summary": "Potential fit with some skill gaps",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1205,7 +3121,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 80,
+      "role_compatibility": 90,
+      "skills_match": 85,
+      "interest_alignment": 90,
+      "overall_fit": 85,
+      "experience_gap": "None significant",
+      "key_strengths": [
+        "AI agent infrastructure experience (Nova\u2011Act)",
+        "Scaling inference pipelines and distributed systems",
+        "Experience building monitoring and observer models"
+      ],
+      "major_concerns": [
+        "Limited exposure to large\u2011scale training environment specifics",
+        "Some depth in agent debugging and environment emulation"
+      ],
+      "excitement_factor": "Directly matches candidate\u2019s recent work and interests",
+      "one_line_summary": "Strong fit for the role",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1218,7 +3155,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 70,
+      "role_compatibility": 85,
+      "skills_match": 80,
+      "interest_alignment": 85,
+      "overall_fit": 78,
+      "experience_gap": "Short on formal safety research experience",
+      "key_strengths": [
+        "Large model inference",
+        "Observer model monitoring",
+        "Content moderation",
+        "Scaling and latency optimization"
+      ],
+      "major_concerns": [
+        "Limited formal safety research",
+        "Lack of policy or alignment research background"
+      ],
+      "excitement_factor": "Aligns with safety interests and large model experience",
+      "one_line_summary": "Strong fit for AI safety role, but slightly under seniority",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1231,7 +3190,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 75,
+      "role_compatibility": 80,
+      "skills_match": 85,
+      "interest_alignment": 80,
+      "overall_fit": 80,
+      "experience_gap": "Limited experience with large-scale backend for millions of users",
+      "key_strengths": [
+        "Scaling system capacity",
+        "Latency optimization",
+        "Monitoring infrastructure",
+        "AWS services expertise"
+      ],
+      "major_concerns": [
+        "Need to demonstrate ability to handle massive traffic"
+      ],
+      "excitement_factor": "Matches interest in distributed systems and reliability",
+      "one_line_summary": "Good fit for backend role, but may need to prove scaling to millions",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1244,7 +3224,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 80,
+      "interest_alignment": 80,
+      "overall_fit": 75,
+      "experience_gap": "Limited experience with knowledge systems and internal automation",
+      "key_strengths": [
+        "Large model inference",
+        "Scaling and monitoring",
+        "Internal product development"
+      ],
+      "major_concerns": [
+        "Domain knowledge for knowledge systems"
+      ],
+      "excitement_factor": "Aligns with interest in AI-based implementations",
+      "one_line_summary": "Solid fit for knowledge innovation backend, but may need to learn domain specifics",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1257,7 +3257,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 70,
+      "skills_match": 45,
+      "interest_alignment": 60,
+      "overall_fit": 35,
+      "experience_gap": "lacks 4+ years of experience",
+      "key_strengths": [
+        "AI inference scaling",
+        "backend optimization",
+        "cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "lack of video/multimodal experience",
+        "insufficient years of senior engineering"
+      ],
+      "excitement_factor": "Exciting product focus but experience gap",
+      "one_line_summary": "Candidate has relevant backend skills but insufficient experience and domain knowledge for Sora.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1270,7 +3291,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 60,
+      "skills_match": 30,
+      "interest_alignment": 70,
+      "overall_fit": 30,
+      "experience_gap": "lacks 3+ years and core caching expertise",
+      "key_strengths": [
+        "scaling inference clusters",
+        "performance optimization",
+        "team leadership"
+      ],
+      "major_concerns": [
+        "no caching system experience",
+        "lack of Kubernetes orchestration"
+      ],
+      "excitement_factor": "Challenging but missing core skills",
+      "one_line_summary": "Candidate lacks key caching and infra experience for this role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1283,7 +3325,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 60,
+      "skills_match": 35,
+      "interest_alignment": 70,
+      "overall_fit": 30,
+      "experience_gap": "lacks 3+ years and deep infra experience",
+      "key_strengths": [
+        "scaling clusters",
+        "performance tuning",
+        "cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "no Kubernetes or networking expertise",
+        "limited infra depth"
+      ],
+      "excitement_factor": "Potentially interesting but skill mismatch",
+      "one_line_summary": "Candidate's experience is too shallow for core infra role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1296,7 +3359,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 45,
+      "role_compatibility": 60,
+      "skills_match": 25,
+      "interest_alignment": 55,
+      "overall_fit": 35,
+      "experience_gap": "Lack of C++/CUDA and RDMA networking experience",
+      "key_strengths": [
+        "Large model inference pipeline",
+        "Latency optimization",
+        "Distributed systems scaling"
+      ],
+      "major_concerns": [
+        "No low-level networking experience",
+        "No C++/CUDA"
+      ],
+      "excitement_factor": "Exciting due to large-scale training, but core skill mismatch",
+      "one_line_summary": "Candidate has distributed systems experience but lacks low-level networking and C++/CUDA expertise required.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1309,7 +3393,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 65,
+      "interest_alignment": 85,
+      "overall_fit": 75,
+      "experience_gap": "Limited RL environment and large-scale agent training experience",
+      "key_strengths": [
+        "Computer-using agent infrastructure",
+        "Scaling and latency optimization",
+        "Cross-functional collaboration"
+      ],
+      "major_concerns": [
+        "Limited RL training pipeline experience",
+        "No deep experience with training agents at scale"
+      ],
+      "excitement_factor": "Strong alignment with agent infrastructure and product",
+      "one_line_summary": "Strong fit for infrastructure side of computer-using agents, but limited RL training experience.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1322,7 +3427,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 40,
+      "role_compatibility": 55,
+      "skills_match": 30,
+      "interest_alignment": 45,
+      "overall_fit": 35,
+      "experience_gap": "No exascale storage or Azure experience",
+      "key_strengths": [
+        "Distributed systems experience",
+        "AWS infrastructure",
+        "Scaling"
+      ],
+      "major_concerns": [
+        "Lack of exascale storage expertise",
+        "No Azure experience"
+      ],
+      "excitement_factor": "Not aligned with storage focus",
+      "one_line_summary": "Candidate lacks core storage infrastructure experience.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1335,7 +3461,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 60,
+      "role_compatibility": 80,
+      "skills_match": 70,
+      "interest_alignment": 80,
+      "overall_fit": 73,
+      "experience_gap": "Short on 1\u20132 years of experience and lacks experience with Temporal and file storage primitives.",
+      "key_strengths": [
+        "Distributed systems scaling experience",
+        "Performance optimization",
+        "Cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "Limited experience with C++ and core infrastructure primitives",
+        "No explicit experience with Temporal or metadata stores"
+      ],
+      "excitement_factor": "Exciting due to strong scaling and performance background, but missing some core infra specifics.",
+      "one_line_summary": "Good fit for a mid\u2011level core services role, but may need to prove experience with specific infra tools.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1348,7 +3495,29 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Software Engineer, Data Acquis...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 50,
+      "role_compatibility": 30,
+      "skills_match": 20,
+      "interest_alignment": 50,
+      "overall_fit": 38,
+      "experience_gap": "Lacks experience with large\u2011scale web crawling and petabyte data ingestion.",
+      "key_strengths": [
+        "Distributed systems scaling experience",
+        "Performance optimization",
+        "Cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "No crawling or data ingestion experience",
+        "No Kubernetes or large stateful system experience",
+        "No compliance/legal experience"
+      ],
+      "excitement_factor": "Concerning due to missing core domain experience.",
+      "one_line_summary": "Unlikely fit for data acquisition role due to missing domain expertise.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1361,7 +3530,28 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Software Engineer, Database Sy...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 50,
+      "role_compatibility": 30,
+      "skills_match": 15,
+      "interest_alignment": 50,
+      "overall_fit": 36,
+      "experience_gap": "No experience with C++ or database engine internals.",
+      "key_strengths": [
+        "Distributed systems scaling experience",
+        "Performance optimization",
+        "Cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "Lack of C++ and database internals experience",
+        "No experience with high\u2011performance distributed databases"
+      ],
+      "excitement_factor": "Concerning due to missing core technical skills.",
+      "one_line_summary": "Not a good fit for database systems role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1374,7 +3564,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Software Engineer, Data Visual...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 60,
+      "role_compatibility": 70,
+      "skills_match": 55,
+      "interest_alignment": 50,
+      "overall_fit": 58,
+      "experience_gap": "Limited direct experience with HPC data\u2011visualization tools",
+      "key_strengths": [
+        "Strong backend engineering with AWS, SageMaker, and performance optimization",
+        "Experience building monitoring and observer\u2011model infrastructure"
+      ],
+      "major_concerns": [
+        "Lack of explicit data\u2011visualization experience",
+        "Limited HPC domain knowledge"
+      ],
+      "excitement_factor": "Potential to learn HPC visualization, but role may require deeper domain expertise",
+      "one_line_summary": "Moderate fit; some relevant skills but missing key domain expertise",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1387,7 +3597,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 75,
+      "interest_alignment": 85,
+      "overall_fit": 78,
+      "experience_gap": "Limited experience with large\u2011scale dev tooling at scale",
+      "key_strengths": [
+        "Strong internal tooling experience",
+        "Performance optimization and scaling",
+        "AWS infrastructure expertise"
+      ],
+      "major_concerns": [
+        "Relatively short tenure",
+        "No explicit experience with dev\u2011productivity frameworks"
+      ],
+      "excitement_factor": "High potential to contribute to engineering acceleration",
+      "one_line_summary": "Strong fit; likely to be considered for interview",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1400,7 +3631,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 60,
+      "role_compatibility": 70,
+      "skills_match": 60,
+      "interest_alignment": 55,
+      "overall_fit": 58,
+      "experience_gap": "No direct experience with SSO, SCIM, OAuth2.0",
+      "key_strengths": [
+        "Experience in cryptography and credential distribution",
+        "AWS security background"
+      ],
+      "major_concerns": [
+        "Lack of identity federation experience",
+        "Limited exposure to enterprise identity standards"
+      ],
+      "excitement_factor": "Moderate; could learn but missing core domain",
+      "one_line_summary": "Moderate fit; may need to upskill",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1413,7 +3664,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 50,
+      "skills_match": 55,
+      "interest_alignment": 40,
+      "overall_fit": 44,
+      "experience_gap": "Limited billing and finance domain experience; only 2 years of general software engineering",
+      "key_strengths": [
+        "Large\u2011scale inference cluster scaling",
+        "Distributed systems and latency optimization",
+        "Java/Python backend development"
+      ],
+      "major_concerns": [
+        "No direct billing or monetization system experience",
+        "Experience level below typical requirement for a senior billing engineer"
+      ],
+      "excitement_factor": "Exciting due to scaling expertise, but lacking core billing domain knowledge",
+      "one_line_summary": "Unlikely to secure an interview; significant gaps in billing domain and experience level",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1426,7 +3698,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 30,
+      "role_compatibility": 45,
+      "skills_match": 50,
+      "interest_alignment": 35,
+      "overall_fit": 40,
+      "experience_gap": "No direct hardware reliability or fleet monitoring experience; limited exposure to GPU/compute health",
+      "key_strengths": [
+        "Inference cluster scaling and GPU utilization",
+        "Distributed system design",
+        "Performance profiling"
+      ],
+      "major_concerns": [
+        "Missing hardware health monitoring expertise",
+        "Experience level below typical requirement for fleet reliability engineering"
+      ],
+      "excitement_factor": "Appealing due to large\u2011scale system focus, but lacks specific hardware reliability background",
+      "one_line_summary": "Low probability of interview; core domain mismatch and experience gap",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1439,7 +3732,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 25,
+      "role_compatibility": 55,
+      "skills_match": 50,
+      "interest_alignment": 30,
+      "overall_fit": 40,
+      "experience_gap": "Insufficient depth in TypeScript/React production experience; only 1\u20132 years",
+      "key_strengths": [
+        "React/Java web development",
+        "Full\u2011stack Java/Python experience",
+        "Basic front\u2011end tooling"
+      ],
+      "major_concerns": [
+        "Limited front\u2011end depth for large\u2011scale production apps",
+        "Career interests skewed toward ML and distributed systems"
+      ],
+      "excitement_factor": "Front\u2011end role is a stretch; may not align with long\u2011term interests",
+      "one_line_summary": "Unlikely to be considered; significant gaps in required front\u2011end experience and interest alignment",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1452,7 +3766,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 70,
+      "skills_match": 40,
+      "interest_alignment": 70,
+      "overall_fit": 35,
+      "experience_gap": "Limited experience with large\u2011scale compute cluster orchestration and HPC infrastructure; only 2.5 years of experience.",
+      "key_strengths": [
+        "AWS scaling experience",
+        "Inference pipeline optimization",
+        "Distributed system monitoring"
+      ],
+      "major_concerns": [
+        "Insufficient experience with HPC cluster management",
+        "Lack of deep system\u2011level expertise",
+        "Short tenure"
+      ],
+      "excitement_factor": "Exciting due to distributed systems focus, but concerns about experience.",
+      "one_line_summary": "Candidate is underqualified for senior\u2011level cluster engineering role; unlikely to secure interview.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1465,7 +3801,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 70,
+      "skills_match": 30,
+      "interest_alignment": 60,
+      "overall_fit": 30,
+      "experience_gap": "No experience in power management or large\u2011scale power optimization.",
+      "key_strengths": [
+        "Automation",
+        "Monitoring",
+        "AWS experience"
+      ],
+      "major_concerns": [
+        "Lack of power management expertise",
+        "Limited experience with large\u2011scale infrastructure"
+      ],
+      "excitement_factor": "Interesting but lacks required domain knowledge.",
+      "one_line_summary": "Not a strong fit; low probability of interview.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1478,7 +3835,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 70,
+      "skills_match": 45,
+      "interest_alignment": 70,
+      "overall_fit": 35,
+      "experience_gap": "Limited experience with hardware failure root\u2011cause analysis and large\u2011scale system health checks.",
+      "key_strengths": [
+        "Monitoring",
+        "Automation",
+        "AWS",
+        "Distributed systems"
+      ],
+      "major_concerns": [
+        "Short tenure",
+        "Lack of deep system\u2011level expertise"
+      ],
+      "excitement_factor": "Appealing but missing critical experience.",
+      "one_line_summary": "Underqualified for senior\u2011level system reliability role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1491,7 +3870,26 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 80,
+      "role_compatibility": 90,
+      "skills_match": 85,
+      "interest_alignment": 85,
+      "overall_fit": 85,
+      "experience_gap": "",
+      "key_strengths": [
+        "Backend scaling & inference pipeline",
+        "Cross\u2011functional collaboration with research"
+      ],
+      "major_concerns": [
+        "Limited deep ML research experience"
+      ],
+      "excitement_factor": "Exciting due to prototyping internal tools for researchers",
+      "one_line_summary": "Strong fit for internal tooling role with solid full\u2011stack experience",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1504,7 +3902,26 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 75,
+      "role_compatibility": 80,
+      "skills_match": 80,
+      "interest_alignment": 80,
+      "overall_fit": 78,
+      "experience_gap": "",
+      "key_strengths": [
+        "Automation & scaling of internal systems",
+        "Experience with LLM\u2011based chatbot"
+      ],
+      "major_concerns": [
+        "Limited experience with large\u2011scale knowledge systems"
+      ],
+      "excitement_factor": "Appealing for building AI\u2011powered knowledge solutions",
+      "one_line_summary": "Good fit, but some gaps in knowledge system domain",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1517,7 +3934,26 @@
     "requirements": null,
     "location": "Remote",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 60,
+      "skills_match": 70,
+      "interest_alignment": 30,
+      "overall_fit": 55,
+      "experience_gap": "",
+      "key_strengths": [
+        "Full\u2011stack development, AWS experience"
+      ],
+      "major_concerns": [
+        "Lack of interest in people/HR domain",
+        "No experience with recruiting tools"
+      ],
+      "excitement_factor": "Less exciting due to misalignment with people focus",
+      "one_line_summary": "Moderate fit but misaligned interests",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1530,7 +3966,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 35,
+      "role_compatibility": 70,
+      "skills_match": 55,
+      "interest_alignment": 80,
+      "overall_fit": 45,
+      "experience_gap": "2 years less than typical 5+ years; lacks kernel\u2011level GPU optimization",
+      "key_strengths": [
+        "Inference pipeline optimization",
+        "Latency reduction",
+        "Scaling large models"
+      ],
+      "major_concerns": [
+        "Limited kernel\u2011level expertise",
+        "Short tenure"
+      ],
+      "excitement_factor": "Exciting due to inference focus, but concerning lack of low\u2011level GPU skills",
+      "one_line_summary": "Candidate has relevant inference experience but lacks depth in GPU kernel optimization and years of experience.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1543,7 +4000,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 30,
+      "role_compatibility": 70,
+      "skills_match": 50,
+      "interest_alignment": 75,
+      "overall_fit": 40,
+      "experience_gap": "2 years less than typical 5+ years; limited experience with large GPU fleet management",
+      "key_strengths": [
+        "Scaling infrastructure",
+        "Automation",
+        "Reliability improvements"
+      ],
+      "major_concerns": [
+        "No explicit Kubernetes or GPU fleet experience",
+        "Short tenure"
+      ],
+      "excitement_factor": "Interesting for scaling, but lacking specific fleet expertise",
+      "one_line_summary": "Good scaling background but missing key GPU fleet and HPC skills.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1556,7 +4034,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 25,
+      "role_compatibility": 70,
+      "skills_match": 45,
+      "interest_alignment": 70,
+      "overall_fit": 35,
+      "experience_gap": "2 years less than typical 5+ years; no HPC or hardware reliability experience",
+      "key_strengths": [
+        "Reliability focus",
+        "Automation",
+        "Scaling"
+      ],
+      "major_concerns": [
+        "No HPC experience",
+        "Short tenure"
+      ],
+      "excitement_factor": "Potentially valuable for reliability, but lacking HPC depth",
+      "one_line_summary": "Background in reliability but insufficient HPC expertise.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1569,7 +4068,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 70,
+      "role_compatibility": 90,
+      "skills_match": 85,
+      "interest_alignment": 80,
+      "overall_fit": 80,
+      "experience_gap": "1-2 years of senior-level experience",
+      "key_strengths": [
+        "Large-scale AI inference production",
+        "Latency optimization",
+        "Cross-functional collaboration"
+      ],
+      "major_concerns": [
+        "Limited deep ML research experience",
+        "Short tenure"
+      ],
+      "excitement_factor": "Direct alignment with large-scale AI product deployment",
+      "one_line_summary": "Strong fit for GTM Innovation, but slightly under senior experience",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1582,7 +4102,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 85,
+      "skills_match": 80,
+      "interest_alignment": 70,
+      "overall_fit": 75,
+      "experience_gap": "Lack of healthcare domain experience",
+      "key_strengths": [
+        "Scalable backend systems",
+        "Reliability engineering",
+        "AWS infrastructure"
+      ],
+      "major_concerns": [
+        "No healthcare compliance knowledge",
+        "Limited domain expertise"
+      ],
+      "excitement_factor": "Opportunity to apply AI to healthcare",
+      "one_line_summary": "Decent fit, but domain mismatch may be a hurdle",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1595,7 +4136,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 50,
+      "role_compatibility": 60,
+      "skills_match": 40,
+      "interest_alignment": 50,
+      "overall_fit": 45,
+      "experience_gap": "Insufficient security and identity infra experience",
+      "key_strengths": [
+        "AWS scaling",
+        "Monitoring",
+        "Observability"
+      ],
+      "major_concerns": [
+        "Lack of security expertise",
+        "No identity management experience"
+      ],
+      "excitement_factor": "Security focus not aligned with current skill set",
+      "one_line_summary": "Poor fit for Identity Infrastructure Engineering",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1608,7 +4170,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 35,
+      "role_compatibility": 30,
+      "skills_match": 25,
+      "interest_alignment": 55,
+      "overall_fit": 35,
+      "experience_gap": "No CUDA kernel development experience",
+      "key_strengths": [
+        "Inference pipeline optimization",
+        "Distributed systems"
+      ],
+      "major_concerns": [
+        "Lack of CUDA experience",
+        "Limited GPU kernel knowledge"
+      ],
+      "excitement_factor": "Exciting due to high-performance GPU work but lacking skill",
+      "one_line_summary": "Poor fit due to missing CUDA expertise",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1621,7 +4203,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 65,
+      "interest_alignment": 80,
+      "overall_fit": 74,
+      "experience_gap": "Limited multimodal (image/audio) experience",
+      "key_strengths": [
+        "Inference scaling",
+        "Performance optimization",
+        "Team leadership"
+      ],
+      "major_concerns": [
+        "No multimodal experience",
+        "Limited image/audio processing"
+      ],
+      "excitement_factor": "Exciting due to multimodal inference scaling",
+      "one_line_summary": "Good fit for inference scaling, moderate gaps",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1634,7 +4237,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 60,
+      "role_compatibility": 50,
+      "skills_match": 55,
+      "interest_alignment": 75,
+      "overall_fit": 60,
+      "experience_gap": "Missing CUDA expertise, limited GPU kernel knowledge",
+      "key_strengths": [
+        "Leadership experience",
+        "Scalable system design"
+      ],
+      "major_concerns": [
+        "Missing CUDA expertise",
+        "Limited GPU kernel knowledge"
+      ],
+      "excitement_factor": "Exciting as tech lead but missing GPU depth",
+      "one_line_summary": "Borderline fit; leadership experience but lacks GPU depth",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1647,7 +4270,28 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Software Engineer, Infrastruct...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 75,
+      "interest_alignment": 80,
+      "overall_fit": 75,
+      "experience_gap": "Limited explicit experience with low\u2011level distributed systems languages (Go, Rust) and Kubernetes.",
+      "key_strengths": [
+        "Large\u2011model scaling and latency optimization",
+        "Observability and monitoring infrastructure",
+        "Cloud infrastructure (AWS, SageMaker) and mentoring"
+      ],
+      "major_concerns": [
+        "Depth in low\u2011level distributed systems",
+        "Lack of Kubernetes/Go experience"
+      ],
+      "excitement_factor": "Exciting due to strong scaling and observability background that aligns with OpenAI\u2019s infrastructure needs.",
+      "one_line_summary": "Good fit for a mid\u2011level infrastructure role with some gaps in low\u2011level distributed systems expertise.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1660,7 +4304,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 70,
+      "interest_alignment": 75,
+      "overall_fit": 73,
+      "experience_gap": "Limited experience with large\u2011scale data processing frameworks (Spark, Flink) and analytics pipelines.",
+      "key_strengths": [
+        "Scaling of distributed inference clusters",
+        "Observability and monitoring",
+        "Cloud infrastructure and mentoring"
+      ],
+      "major_concerns": [
+        "Lack of explicit analytics pipeline experience",
+        "No deep experience with big\u2011data frameworks"
+      ],
+      "excitement_factor": "Appealing due to strong scaling and research\u2011infrastructure experience.",
+      "one_line_summary": "Solid fit for a scaling role, but missing some analytics\u2011specific experience.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1673,7 +4338,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 45,
+      "interest_alignment": 60,
+      "overall_fit": 55,
+      "experience_gap": "Lack of experience in security, fraud detection, and adversarial defense.",
+      "key_strengths": [
+        "Observability and monitoring",
+        "Scaling and reliability engineering",
+        "Mentoring junior engineers"
+      ],
+      "major_concerns": [
+        "No explicit security or abuse\u2011detection expertise",
+        "Limited exposure to threat modeling or fraud detection systems"
+      ],
+      "excitement_factor": "Concerned due to mismatch in security focus.",
+      "one_line_summary": "Moderate fit but missing key security expertise required for Integrity Foundations.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1686,7 +4372,30 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Software Engineer, ML Performa...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 25,
+      "role_compatibility": 70,
+      "skills_match": 55,
+      "interest_alignment": 80,
+      "overall_fit": 45,
+      "experience_gap": "Job requires 5+ years of experience; candidate has ~2 years",
+      "key_strengths": [
+        "Latency optimization and profiling",
+        "Inference pipeline design for large models",
+        "Batching and throughput improvements",
+        "Cross\u2011functional collaboration with PMs and researchers"
+      ],
+      "major_concerns": [
+        "No C++ or GPU kernel optimization experience",
+        "Limited overall years of senior engineering work",
+        "No explicit experience with low\u2011latency hardware tuning"
+      ],
+      "excitement_factor": "The role aligns with the candidate\u2019s inference work, but the experience gap is significant",
+      "one_line_summary": "Candidate has relevant technical chops but lacks the seniority and depth required for a top\u2011tier inference engineer",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1699,7 +4408,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 25,
+      "role_compatibility": 70,
+      "skills_match": 65,
+      "interest_alignment": 80,
+      "overall_fit": 50,
+      "experience_gap": "Job likely expects 5+ years of experience; candidate has ~2 years",
+      "key_strengths": [
+        "Full\u2011stack development (React, Python, Java)",
+        "Observability and monitoring infrastructure",
+        "Product\u2011centric mindset and cross\u2011team collaboration"
+      ],
+      "major_concerns": [
+        "Limited experience with large\u2011scale data pipelines and analytics",
+        "No explicit background in building robust evaluation frameworks for model behavior",
+        "Short tenure in senior roles"
+      ],
+      "excitement_factor": "The product focus is a good match, but depth in data pipelines is missing",
+      "one_line_summary": "Candidate could be a fit for a mid\u2011level full\u2011stack role, but the seniority gap is a hurdle",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1712,7 +4443,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 25,
+      "role_compatibility": 70,
+      "skills_match": 75,
+      "interest_alignment": 80,
+      "overall_fit": 55,
+      "experience_gap": "Job expects 5+ years; candidate has ~2 years",
+      "key_strengths": [
+        "Large\u2011scale inference pipeline for 76B\u2011parameter model",
+        "Latency reduction and batching techniques",
+        "Cross\u2011team coordination with research and product"
+      ],
+      "major_concerns": [
+        "No C++ or GPU kernel optimization experience",
+        "Limited years of senior engineering responsibility",
+        "No direct experience with Azure VM optimization"
+      ],
+      "excitement_factor": "Strong alignment with inference work, but seniority and low\u2011level skills are lacking",
+      "one_line_summary": "Candidate could be considered for a mid\u2011level inference engineer, but the experience gap is a concern",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1725,7 +4478,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 80,
+      "role_compatibility": 90,
+      "skills_match": 70,
+      "interest_alignment": 85,
+      "overall_fit": 80,
+      "experience_gap": "Limited experience with distributed logging, time\u2011series storage, and trace infrastructure",
+      "key_strengths": [
+        "Distributed systems scaling and optimization",
+        "Monitoring infrastructure and observer model implementation",
+        "AWS, Sagemaker, Python, Java expertise"
+      ],
+      "major_concerns": [
+        "No explicit background in distributed logging or time\u2011series databases",
+        "Limited UI/dashboard development experience"
+      ],
+      "excitement_factor": "Exciting due to strong distributed systems background and clear interest in observability",
+      "one_line_summary": "Strong fit for the observability role, but missing some specific infra experience",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1738,7 +4512,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 60,
+      "skills_match": 40,
+      "interest_alignment": 40,
+      "overall_fit": 45,
+      "experience_gap": "No payment infrastructure or financial primitives experience",
+      "key_strengths": [
+        "AWS and distributed systems experience",
+        "Python and Java development"
+      ],
+      "major_concerns": [
+        "Lack of payment domain knowledge and compliance expertise",
+        "No experience with PCI, fraud detection, or payment APIs"
+      ],
+      "excitement_factor": "Concerning due to mismatch in domain expertise",
+      "one_line_summary": "Poor fit for the payments role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1751,7 +4545,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 70,
+      "skills_match": 60,
+      "interest_alignment": 70,
+      "overall_fit": 65,
+      "experience_gap": "Limited experience building research visualization tools and data pipelines",
+      "key_strengths": [
+        "ML and NLP experience",
+        "Front\u2011end development with React/JS",
+        "Distributed systems and scaling"
+      ],
+      "major_concerns": [
+        "No proven track record of research tool or visualization development",
+        "Limited exposure to internal research workflows"
+      ],
+      "excitement_factor": "Potentially interesting but requires learning curve",
+      "one_line_summary": "Moderate fit; could be considered with additional learning",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1764,7 +4579,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 55,
+      "interest_alignment": 60,
+      "overall_fit": 65,
+      "experience_gap": "lacks explicit security/privacy experience",
+      "key_strengths": [
+        "backend scaling",
+        "performance optimization",
+        "cross\u2011functional collaboration"
+      ],
+      "major_concerns": [
+        "no explicit security/privacy background",
+        "limited threat modeling experience"
+      ],
+      "excitement_factor": "Opportunity to learn privacy engineering",
+      "one_line_summary": "Good fit for backend scaling but missing privacy expertise",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1777,7 +4613,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Software Engineer, Reliability...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 80,
+      "role_compatibility": 90,
+      "skills_match": 85,
+      "interest_alignment": 80,
+      "overall_fit": 85,
+      "experience_gap": "none",
+      "key_strengths": [
+        "scaling initiatives",
+        "performance optimization",
+        "monitoring infrastructure"
+      ],
+      "major_concerns": [
+        "limited long\u2011term reliability track record"
+      ],
+      "excitement_factor": "Strong alignment with reliability focus",
+      "one_line_summary": "Excellent fit for reliability engineering",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1790,7 +4646,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 60,
+      "role_compatibility": 70,
+      "skills_match": 50,
+      "interest_alignment": 70,
+      "overall_fit": 55,
+      "experience_gap": "lacks deep research and data labeling pipeline experience",
+      "key_strengths": [
+        "ML project experience",
+        "interest in human data"
+      ],
+      "major_concerns": [
+        "limited research collaboration",
+        "no experience with large\u2011scale feedback systems"
+      ],
+      "excitement_factor": "Potential to grow into research role",
+      "one_line_summary": "Moderate fit; may need to prove research chops",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1803,7 +4679,30 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 80,
+      "skills_match": 55,
+      "interest_alignment": 70,
+      "overall_fit": 45,
+      "experience_gap": "Needs 5+ years of experience; candidate has 2",
+      "key_strengths": [
+        "Scaling large inference pipelines",
+        "Latency optimization",
+        "Monitoring and observer models",
+        "AWS Sagemaker experience"
+      ],
+      "major_concerns": [
+        "Lack of Kubernetes cluster provisioning experience",
+        "Limited GPU scheduling expertise",
+        "Short tenure"
+      ],
+      "excitement_factor": "Interesting infrastructure role but may be too early for the senior level required",
+      "one_line_summary": "Candidate has relevant scaling experience but lacks depth in GPU fleet infrastructure; unlikely to be a strong fit.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1816,7 +4715,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 30,
+      "role_compatibility": 70,
+      "skills_match": 40,
+      "interest_alignment": 50,
+      "overall_fit": 35,
+      "experience_gap": "Needs 5+ years of experience; candidate has 2",
+      "key_strengths": [
+        "Monitoring and observer models",
+        "Scaling",
+        "Experience with safety-related monitoring"
+      ],
+      "major_concerns": [
+        "No adversarial testing experience",
+        "Limited safety research background",
+        "Short tenure"
+      ],
+      "excitement_factor": "Safety focus aligns with interests but lacks experience",
+      "one_line_summary": "Candidate lacks safety and adversarial testing experience; not a good fit.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1829,7 +4750,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 20,
+      "role_compatibility": 70,
+      "skills_match": 30,
+      "interest_alignment": 40,
+      "overall_fit": 25,
+      "experience_gap": "Needs 5+ years of experience; candidate has 2",
+      "key_strengths": [
+        "Scaling",
+        "Monitoring",
+        "AWS experience"
+      ],
+      "major_concerns": [
+        "No fraud detection experience",
+        "Limited data system experience",
+        "Short tenure"
+      ],
+      "excitement_factor": "Fraud detection is new area; candidate may not be ready",
+      "one_line_summary": "Candidate does not meet experience or domain requirements for fraud engineering; unlikely to be considered.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1842,7 +4785,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 60,
+      "role_compatibility": 70,
+      "skills_match": 65,
+      "interest_alignment": 75,
+      "overall_fit": 65,
+      "experience_gap": "1 year of experience less than ideal for a senior evaluation engineer",
+      "key_strengths": [
+        "Large model inference scaling",
+        "Latency optimization",
+        "Distributed systems",
+        "Monitoring & observability"
+      ],
+      "major_concerns": [
+        "Limited direct search evaluation experience",
+        "Short tenure in senior roles"
+      ],
+      "excitement_factor": "Exciting due to AI evaluation focus, but experience gap may hinder immediate impact",
+      "one_line_summary": "Good fit but slightly under\u2011experienced for a senior evaluation role",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1855,7 +4820,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 55,
+      "role_compatibility": 75,
+      "skills_match": 70,
+      "interest_alignment": 70,
+      "overall_fit": 65,
+      "experience_gap": "1 year less than typical for a senior search infrastructure engineer",
+      "key_strengths": [
+        "Scalable inference pipelines",
+        "Performance optimization",
+        "Distributed systems",
+        "AWS infrastructure experience"
+      ],
+      "major_concerns": [
+        "No direct search infrastructure or indexing experience",
+        "Limited knowledge of search algorithms"
+      ],
+      "excitement_factor": "Appealing for building next\u2011gen search stack, but missing domain depth",
+      "one_line_summary": "Potentially a fit, but missing search\u2011specific expertise",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1868,7 +4855,29 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 50,
+      "role_compatibility": 70,
+      "skills_match": 55,
+      "interest_alignment": 65,
+      "overall_fit": 60,
+      "experience_gap": "Lack of security domain experience",
+      "key_strengths": [
+        "Backend development",
+        "Monitoring & observability",
+        "AWS experience",
+        "Full\u2011stack Java/Python skills"
+      ],
+      "major_concerns": [
+        "No security expertise",
+        "Limited AI security product experience"
+      ],
+      "excitement_factor": "Interesting but security domain unfamiliar",
+      "one_line_summary": "Fit is moderate; security experience gap",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1881,7 +4890,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 40,
+      "role_compatibility": 30,
+      "skills_match": 20,
+      "interest_alignment": 30,
+      "overall_fit": 25,
+      "experience_gap": "Lack of compiler and GPU kernel development experience",
+      "key_strengths": [
+        "Large\u2011scale AI inference pipeline design",
+        "Performance optimization and latency reduction",
+        "Cross\u2011functional collaboration with research and product teams"
+      ],
+      "major_concerns": [
+        "Missing core compiler/GPU skills (CUDA, C++, Triton)",
+        "Limited seniority for a role that likely expects deep technical expertise"
+      ],
+      "excitement_factor": "Role demands deep compiler expertise not present in the r\u00e9sum\u00e9",
+      "one_line_summary": "Low fit due to missing core technical skills for a compiler\u2011focused position",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1894,7 +4924,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 10,
+      "skills_match": 20,
+      "interest_alignment": 40,
+      "overall_fit": 15,
+      "experience_gap": "Insufficient senior\u2011level experience and domain expertise in safety and compliance",
+      "key_strengths": [
+        "Experience building internal tooling and automation",
+        "Performance optimization and cost reduction",
+        "Cross\u2011team collaboration"
+      ],
+      "major_concerns": [
+        "Lack of seniority for a senior engineering role",
+        "No demonstrated experience with safety, compliance, or identity primitives"
+      ],
+      "excitement_factor": "Role requires senior leadership and safety expertise that the candidate lacks",
+      "one_line_summary": "Very low fit for a senior safety\u2011focused engineering position",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1907,7 +4958,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 75,
+      "interest_alignment": 70,
+      "overall_fit": 75,
+      "experience_gap": "Limited explicit experience with security best practices and large\u2011scale internal tooling frameworks",
+      "key_strengths": [
+        "Full\u2011stack web development (Java, Python, React, AWS)",
+        "Performance optimization and automation of internal processes",
+        "Cross\u2011functional collaboration and rapid prototyping"
+      ],
+      "major_concerns": [
+        "No explicit mention of security or internal tooling governance",
+        "Experience primarily in product\u2011side rather than tooling\u2011side"
+      ],
+      "excitement_factor": "Role aligns well with the candidate\u2019s skill set and offers growth in tooling and internal systems",
+      "one_line_summary": "Good fit for a mid\u2011level tooling engineer with strong full\u2011stack and performance skills",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1920,7 +4992,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 20,
+      "role_compatibility": 30,
+      "skills_match": 10,
+      "interest_alignment": 20,
+      "overall_fit": 15,
+      "experience_gap": "No graphics or GPU pipeline experience; lacks C++/Vulkan knowledge",
+      "key_strengths": [
+        "Strong software engineering",
+        "Distributed systems experience",
+        "Performance tuning"
+      ],
+      "major_concerns": [
+        "Lack of graphics stack experience",
+        "No C++ or Vulkan expertise"
+      ],
+      "excitement_factor": "Unlikely to be considered due to missing core graphics skills",
+      "one_line_summary": "Very poor fit for a graphics engineering role",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1933,7 +5026,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 20,
+      "role_compatibility": 30,
+      "skills_match": 15,
+      "interest_alignment": 25,
+      "overall_fit": 18,
+      "experience_gap": "No kernel or driver development experience; limited C/C++ depth",
+      "key_strengths": [
+        "Performance tuning",
+        "Scalable system design",
+        "Monitoring infrastructure"
+      ],
+      "major_concerns": [
+        "Missing low\u2011level system and embedded Linux skills"
+      ],
+      "excitement_factor": "Unlikely to be considered for a system software role",
+      "one_line_summary": "Poor fit for a system software engineering position",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1946,7 +5059,27 @@
     "requirements": "Required: self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"System Software Engi...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 40,
+      "role_compatibility": 60,
+      "skills_match": 55,
+      "interest_alignment": 70,
+      "overall_fit": 58,
+      "experience_gap": "Limited experience with embedded Linux, firmware, and deep system architecture",
+      "key_strengths": [
+        "Scalable system design",
+        "Performance optimization",
+        "Monitoring and observability"
+      ],
+      "major_concerns": [
+        "Lack of embedded Linux and firmware experience"
+      ],
+      "excitement_factor": "Potentially a good fit; could grow into the role",
+      "one_line_summary": "Moderate fit; could be considered with some gaps",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1959,7 +5092,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 15,
+      "role_compatibility": 10,
+      "skills_match": 5,
+      "interest_alignment": 20,
+      "overall_fit": 13,
+      "experience_gap": "Lack of thermal design and simulation experience; only 2 years in software engineering.",
+      "key_strengths": [
+        "Strong ML and distributed systems experience",
+        "Proven ability to optimize performance and reduce latency"
+      ],
+      "major_concerns": [
+        "No thermal engineering background",
+        "Insufficient experience with FEA/CFD tools",
+        "Limited domain knowledge"
+      ],
+      "excitement_factor": "Role is unrelated to candidate's expertise; unlikely to be a good fit.",
+      "one_line_summary": "Very low fit; thermal design expertise missing.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1972,7 +5126,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 10,
+      "role_compatibility": 5,
+      "skills_match": 30,
+      "interest_alignment": 60,
+      "overall_fit": 28,
+      "experience_gap": "Insufficient managerial experience; lacks depth in content safety and policy.",
+      "key_strengths": [
+        "Strong ML engineering",
+        "Experience with observer models and content moderation",
+        "Leadership of small teams"
+      ],
+      "major_concerns": [
+        "No proven experience managing senior ML engineers",
+        "Limited safety and policy expertise"
+      ],
+      "excitement_factor": "Potentially interesting but missing managerial depth.",
+      "one_line_summary": "Possible fit if willing to grow into management; still significant gaps.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -1985,7 +5160,28 @@
     "requirements": null,
     "location": "San Francisco and Remote",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 80,
+      "skills_match": 50,
+      "interest_alignment": 40,
+      "overall_fit": 60,
+      "experience_gap": "No Workday integration experience; limited HR system knowledge.",
+      "key_strengths": [
+        "AWS experience",
+        "Building internal tools",
+        "Automation and strong software engineering"
+      ],
+      "major_concerns": [
+        "Lack of Workday-specific skills",
+        "HR domain unfamiliarity"
+      ],
+      "excitement_factor": "Could be a learning opportunity but domain mismatch.",
+      "one_line_summary": "Moderate fit; could be considered if willing to learn Workday.",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -2037,7 +5233,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 30,
+      "role_compatibility": 30,
+      "skills_match": 20,
+      "interest_alignment": 20,
+      "overall_fit": 20,
+      "experience_gap": "No explicit application security or penetration testing experience",
+      "key_strengths": [
+        "Strong software engineering background",
+        "Experience scaling large AI inference pipelines"
+      ],
+      "major_concerns": [
+        "Lack of security tool and vulnerability assessment expertise",
+        "No demonstrated secure coding or code review experience"
+      ],
+      "excitement_factor": "Security work is a new domain for the candidate, but current skill set does not align",
+      "one_line_summary": "Unlikely to be a good fit for an application security role due to missing core security experience",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -2050,7 +5266,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 30,
+      "role_compatibility": 30,
+      "skills_match": 20,
+      "interest_alignment": 20,
+      "overall_fit": 20,
+      "experience_gap": "No detection & response or security operations background",
+      "key_strengths": [
+        "AI model deployment and monitoring",
+        "Cross\u2011functional collaboration with product and research teams"
+      ],
+      "major_concerns": [
+        "No experience with SIEM, detection rule creation, or incident response",
+        "Security operations knowledge is absent"
+      ],
+      "excitement_factor": "Opportunity to learn security ops, but current experience is insufficient",
+      "one_line_summary": "Low probability of fit for a detection and response security engineer",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -2063,7 +5299,28 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 3,
+      "experience_level_match": 70,
+      "role_compatibility": 90,
+      "skills_match": 80,
+      "interest_alignment": 90,
+      "overall_fit": 85,
+      "experience_gap": "Limited deep research experience with large language models",
+      "key_strengths": [
+        "Full\u2011stack development (Java, Python, JS/React)",
+        "Production\u2011grade AI inference pipeline engineering",
+        "Strong cross\u2011team collaboration and product delivery"
+      ],
+      "major_concerns": [
+        "Relatively short tenure in large\u2011scale AI product environments",
+        "No direct experience with OpenAI\u2019s core model internals"
+      ],
+      "excitement_factor": "Directly aligns with the candidate\u2019s stated interests in ML, product, and distributed systems",
+      "one_line_summary": "Strong fit for a software engineer role focused on building AI products",
+      "would_interview": true,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -2076,7 +5333,27 @@
     "requirements": "self.__next_f.push([1,\"11:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"max-w-container mb-sm mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"@container multi-columns:px-0 @md:shaded-container:!px-0 grid w-full grid-cols-12\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"col-span-12 @md:col-span-10 @md:col-start-2 @lg:col-span-8 @lg:col-start-3\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex flex-col items-center text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-primary-100 mb-md text-meta\\\",\\\"children\\\":\\\"Careers\\\"}],false,\\\"$undefined\\\",[\\\"$\\\",\\\"h2\\\",null,{\\\"id\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-h2 max-w-[62.5rem] text-primary-100 text-balance scroll-mt-[calc(var(--header-h)+var(--toc-button-h))]\\\",\\\"children\\\":\\\"Software Engineer, Online Stor...",
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 1,
+      "experience_level_match": 70,
+      "role_compatibility": 70,
+      "skills_match": 55,
+      "interest_alignment": 70,
+      "overall_fit": 60,
+      "experience_gap": "Limited database design and internals experience",
+      "key_strengths": [
+        "Scalable system design and performance optimization",
+        "Distributed systems and large\u2011scale infrastructure experience"
+      ],
+      "major_concerns": [
+        "No explicit database architecture or storage system background",
+        "Experience slightly below typical mid\u2011level expectations"
+      ],
+      "excitement_factor": "Exciting due to strong distributed systems background, but missing core database expertise",
+      "one_line_summary": "Candidate has relevant distributed systems experience but lacks depth in database design; moderate fit for a large\u2011scale storage role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   },
   {
@@ -2089,7 +5366,27 @@
     "requirements": null,
     "location": "San Francisco",
     "posting_date": null,
-    "match_analysis": null,
+    "match_analysis": {
+      "job_number": 2,
+      "experience_level_match": 70,
+      "role_compatibility": 70,
+      "skills_match": 60,
+      "interest_alignment": 55,
+      "overall_fit": 58,
+      "experience_gap": "Limited direct security observability pipeline experience",
+      "key_strengths": [
+        "Monitoring and observer\u2011model infrastructure development",
+        "Security\u2011related scaling initiative for a high\u2011traffic system"
+      ],
+      "major_concerns": [
+        "No deep experience with SIEM, log aggregation, or security observability tooling",
+        "Interest in security not explicitly stated"
+      ],
+      "excitement_factor": "Concerning due to lack of specialized security observability background, but promising monitoring skills",
+      "one_line_summary": "Candidate brings monitoring and security scaling experience, yet lacks focused observability pipeline expertise; moderate fit for a security observability role.",
+      "would_interview": false,
+      "analysis_date": "2025-08-08"
+    },
     "source_data": {}
   }
 ]
