@@ -172,7 +172,7 @@ class JobList:
 
     def get_unanalyzed_jobs(self) -> List[JobItem]:
         """Get jobs that don't have match analysis yet"""
-        return [job for job in self.items if job.match_analysis is None and job.description]
+        return [job for job in self.items if job.match_analysis or job.match_analysis is None]
 
     def get_analyzed_jobs(self) -> List[JobItem]:
         """Get jobs that have match analysis"""
